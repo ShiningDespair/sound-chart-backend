@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChinookContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\ChinookContext.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
+              "RelativeToolTip": "Backend\\Models\\ChinookContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA4wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:10:05.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Invoice.cs",
+              "RelativeToolTip": "Backend\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:08:11.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Backend",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T12:04:24.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackController.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TrackController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\TrackController.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TrackController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\TrackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:44:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:35:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Backend\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:04:37.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
