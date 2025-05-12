@@ -22,10 +22,14 @@ namespace Backend.Controllers
 
         // GET: api/Genres unique
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Genre>>> GetGenres()
+        public async Task<ActionResult<IEnumerable<string>>> GetGenres()
         {
-            return await _context.Genres.Distinct().ToListAsync();
+            return await _context.Genres
+                .Select(g => g.Name!)
+                .Distinct()
+                .ToListAsync();
         }
+
 
         // GET: api/Genres/5
         [HttpGet("{id}")]
