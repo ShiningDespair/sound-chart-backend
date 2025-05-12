@@ -20,11 +20,11 @@ namespace Backend.Controllers
             _context = context;
         }
 
-        // GET: api/Genres
+        // GET: api/Genres unique
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Genre>>> GetGenres()
         {
-            return await _context.Genres.ToListAsync();
+            return await _context.Genres.Distinct().ToListAsync();
         }
 
         // GET: api/Genres/5

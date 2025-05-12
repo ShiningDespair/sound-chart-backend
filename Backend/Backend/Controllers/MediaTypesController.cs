@@ -11,47 +11,47 @@ namespace Backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ArtistsController : ControllerBase
+    public class MediaTypesController : ControllerBase
     {
         private readonly ChinookContext _context;
 
-        public ArtistsController(ChinookContext context)
+        public MediaTypesController(ChinookContext context)
         {
             _context = context;
         }
 
-        // GET: api/Artists unique
+        // GET: api/MediaTypes unique
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Artist>>> GetArtists()
+        public async Task<ActionResult<IEnumerable<MediaType>>> GetMediaTypes()
         {
-            return await _context.Artists.Distinct().ToListAsync();
+            return await _context.MediaTypes.Distinct().ToListAsync();
         }
 
-        // GET: api/Artists/5
+        // GET: api/MediaTypes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Artist>> GetArtist(int id)
+        public async Task<ActionResult<MediaType>> GetMediaType(int id)
         {
-            var artist = await _context.Artists.FindAsync(id);
+            var mediaType = await _context.MediaTypes.FindAsync(id);
 
-            if (artist == null)
+            if (mediaType == null)
             {
                 return NotFound();
             }
 
-            return artist;
+            return mediaType;
         }
 
-        // PUT: api/Artists/5
+        // PUT: api/MediaTypes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutArtist(int id, Artist artist)
+        public async Task<IActionResult> PutMediaType(int id, MediaType mediaType)
         {
-            if (id != artist.ArtistId)
+            if (id != mediaType.MediaTypeId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(artist).State = EntityState.Modified;
+            _context.Entry(mediaType).State = EntityState.Modified;
 
             try
             {
@@ -59,7 +59,7 @@ namespace Backend.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ArtistExists(id))
+                if (!MediaTypeExists(id))
                 {
                     return NotFound();
                 }
@@ -72,19 +72,19 @@ namespace Backend.Controllers
             return NoContent();
         }
 
-        // POST: api/Artists
+        // POST: api/MediaTypes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Artist>> PostArtist(Artist artist)
+        public async Task<ActionResult<MediaType>> PostMediaType(MediaType mediaType)
         {
-            _context.Artists.Add(artist);
+            _context.MediaTypes.Add(mediaType);
             try
             {
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateException)
             {
-                if (ArtistExists(artist.ArtistId))
+                if (MediaTypeExists(mediaType.MediaTypeId))
                 {
                     return Conflict();
                 }
@@ -94,28 +94,28 @@ namespace Backend.Controllers
                 }
             }
 
-            return CreatedAtAction("GetArtist", new { id = artist.ArtistId }, artist);
+            return CreatedAtAction("GetMediaType", new { id = mediaType.MediaTypeId }, mediaType);
         }
 
-        // DELETE: api/Artists/5
+        // DELETE: api/MediaTypes/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteArtist(int id)
+        public async Task<IActionResult> DeleteMediaType(int id)
         {
-            var artist = await _context.Artists.FindAsync(id);
-            if (artist == null)
+            var mediaType = await _context.MediaTypes.FindAsync(id);
+            if (mediaType == null)
             {
                 return NotFound();
             }
 
-            _context.Artists.Remove(artist);
+            _context.MediaTypes.Remove(mediaType);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool ArtistExists(int id)
+        private bool MediaTypeExists(int id)
         {
-            return _context.Artists.Any(e => e.ArtistId == id);
+            return _context.MediaTypes.Any(e => e.MediaTypeId == id);
         }
     }
 }
