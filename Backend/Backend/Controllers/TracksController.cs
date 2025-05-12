@@ -23,12 +23,12 @@ namespace Backend.Controllers
 
         [HttpGet("worldMap")]
         public async Task<ActionResult<IEnumerable<object>>> GetTracksMap(
-            [FromQuery] string? genre,
-            [FromQuery] int? minDuration,
-            [FromQuery] int? maxDuration,
-            //[FromQuery] string? artist, ekleyeceksin bunu sikerim seni
-            //[FromQuery] string? albume, ekleyeceksin bunu sikerim seni
-            [FromQuery] string? mediaType)
+    [FromQuery] string? genre,
+    [FromQuery] int? minDuration,
+    [FromQuery] int? maxDuration,
+    [FromQuery] string? artist,
+    [FromQuery] string? album,
+    [FromQuery] string? mediaType)
         {
             var query = from il in _context.InvoiceLines
                         join t in _context.Tracks on il.TrackId equals t.TrackId
@@ -36,9 +36,10 @@ namespace Backend.Controllers
                         join m in _context.MediaTypes on t.MediaTypeId equals m.MediaTypeId
                         join i in _context.Invoices on il.InvoiceId equals i.InvoiceId
                         join c in _context.Customers on i.CustomerId equals c.CustomerId
-                        select new { il, t, g, m, c };
+                        join a in _context.Albums on t.AlbumId equals a.AlbumId
+                        join ar in _context.Artists on a.ArtistId equals ar.ArtistId
+                        select new { il, t, g, m, a, ar, c };
 
-            // Apply dynamic filters
             if (!string.IsNullOrEmpty(genre))
                 query = query.Where(x => x.g.Name == genre);
 
@@ -49,9 +50,14 @@ namespace Backend.Controllers
                 query = query.Where(x => x.t.Milliseconds >= minDuration.Value);
 
             if (maxDuration.HasValue)
-                query = query.Where(x => x.t.Milliseconds < maxDuration.Value);
+                query = query.Where(x => x.t.Milliseconds <= maxDuration.Value);
 
-            // Group by country and calculate total spent
+            if (!string.IsNullOrEmpty(artist))
+                query = query.Where(x => x.ar.Name.Contains(artist));
+
+            if (!string.IsNullOrEmpty(album))
+                query = query.Where(x => x.a.Title.Contains(album));
+
             var grouped = await query
                 .GroupBy(x => x.c.Country)
                 .Select(g => new
@@ -64,6 +70,7 @@ namespace Backend.Controllers
 
             return Ok(grouped);
         }
+
 
 
 
