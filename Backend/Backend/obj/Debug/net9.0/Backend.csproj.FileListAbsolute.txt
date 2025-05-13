@@ -33,7 +33,6 @@ C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backe
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\System.Data.SqlServerCe.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\SQLitePCLRaw.core.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -389,7 +388,6 @@ C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backe
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\appsettings.json
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Backend.staticwebassets.runtime.json
@@ -780,3 +778,4 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.pdb
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\ref\Backend.dll
+C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

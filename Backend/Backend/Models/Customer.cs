@@ -19,8 +19,6 @@ public partial class Customer
 
     public string? State { get; set; }
 
-    public string? Country { get; set; }
-
     public string? PostalCode { get; set; }
 
     public string? Phone { get; set; }
@@ -30,6 +28,10 @@ public partial class Customer
     public string Email { get; set; } = null!;
 
     public int? SupportRepId { get; set; }
+
+    public int? CountryId { get; set; }
+
+    public virtual Country? Country { get; set; }
 
     public virtual ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
 

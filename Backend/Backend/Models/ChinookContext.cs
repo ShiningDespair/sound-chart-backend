@@ -19,6 +19,8 @@ public partial class ChinookContext : DbContext
 
     public virtual DbSet<Artist> Artists { get; set; }
 
+    public virtual DbSet<Country> Countries { get; set; }
+
     public virtual DbSet<Customer> Customers { get; set; }
 
     public virtual DbSet<Employee> Employees { get; set; }
@@ -36,7 +38,8 @@ public partial class ChinookContext : DbContext
     public virtual DbSet<Track> Tracks { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Name=ChinookContext");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-1QUI6II;Initial Catalog=Chinook;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -65,6 +68,16 @@ public partial class ChinookContext : DbContext
             entity.Property(e => e.Name).HasMaxLength(120);
         });
 
+        modelBuilder.Entity<Country>(entity =>
+        {
+            entity.HasKey(e => e.CountryId).HasName("PK__Country__10D1609F9B4D73D9");
+
+            entity.ToTable("Country");
+
+            entity.Property(e => e.CountryCode).HasMaxLength(10);
+            entity.Property(e => e.CountryName).HasMaxLength(100);
+        });
+
         modelBuilder.Entity<Customer>(entity =>
         {
             entity.ToTable("Customer");
@@ -75,7 +88,6 @@ public partial class ChinookContext : DbContext
             entity.Property(e => e.Address).HasMaxLength(70);
             entity.Property(e => e.City).HasMaxLength(40);
             entity.Property(e => e.Company).HasMaxLength(80);
-            entity.Property(e => e.Country).HasMaxLength(40);
             entity.Property(e => e.Email).HasMaxLength(60);
             entity.Property(e => e.Fax).HasMaxLength(24);
             entity.Property(e => e.FirstName).HasMaxLength(40);
@@ -83,6 +95,10 @@ public partial class ChinookContext : DbContext
             entity.Property(e => e.Phone).HasMaxLength(24);
             entity.Property(e => e.PostalCode).HasMaxLength(10);
             entity.Property(e => e.State).HasMaxLength(40);
+
+            entity.HasOne(d => d.Country).WithMany(p => p.Customers)
+                .HasForeignKey(d => d.CountryId)
+                .HasConstraintName("FK_Customer_Country");
 
             entity.HasOne(d => d.SupportRep).WithMany(p => p.Customers)
                 .HasForeignKey(d => d.SupportRepId)
