@@ -450,7 +450,6 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.OpenApi.dll
-C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\System.Data.SqlServerCe.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -771,7 +770,6 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Backend.props
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.csproj.Up2Date
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\refint\Backend.dll
@@ -779,3 +777,4 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\ref\Backend.dll
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

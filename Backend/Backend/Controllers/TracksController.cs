@@ -65,6 +65,7 @@ namespace Backend.Controllers
                 .Select(g => new
                 {
                     CountryIsoCode = g.FirstOrDefault().co.CountryIsoCode,  // Retrieve CountryIsoCode
+                    Country = g.FirstOrDefault().co.CountryName, 
                     TotalSpent = g.Sum(x => x.il.UnitPrice * x.il.Quantity)
                 })
                 .OrderByDescending(x => x.TotalSpent)

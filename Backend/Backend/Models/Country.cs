@@ -12,6 +12,4 @@ public partial class Country
     public int? CountryIsoCode { get; set; }
 
     public string? CountryCode { get; set; }
-
-    public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 }

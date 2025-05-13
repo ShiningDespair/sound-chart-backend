@@ -1,57 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\mehmettrackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\mehmettrackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\mehmettrackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\revenuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\revenuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\revenuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\mediatypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\mediatypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\mediatypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\countryrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\lenovo\\desktop\\muzik-projesi\\sound-chart-backend\\backend\\backend\\dtos\\countryrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\countryrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,122 +74,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Backend\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:14:17.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TracksController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\TracksController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\TracksController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Models\\Customer.cs",
+              "RelativeToolTip": "Backend\\Models\\Customer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:11:14.716Z",
+              "WhenOpened": "2025-05-13T21:25:36.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwBsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:02:12.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RevenuesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\RevenuesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\RevenuesController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:28:18.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T10:35:43.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Backend.csproj",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend\\Backend.csproj",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
               "RelativeToolTip": "Backend\\Backend.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-05T12:04:24.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ArtistsController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ArtistsController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
               "RelativeToolTip": "Backend\\Controllers\\ArtistsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:00:37.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T14:00:37.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:39:46.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MehmetTrackController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MehmetTrackController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\MehmetTrackController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MehmetTrackController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\MehmetTrackController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:44:17.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -193,11 +135,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "TracksController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\TracksController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\TracksController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T14:11:14.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\GenresController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:02:12.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RevenuesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\RevenuesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\RevenuesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:28:18.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Backend\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:14:17.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:39:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MehmetTrackController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\MehmetTrackController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\MehmetTrackController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\MehmetTrackController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\MehmetTrackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:44:17.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CountryRevenueDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\CountryRevenueDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
               "RelativeToolTip": "Backend\\DTOs\\CountryRevenueDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,22 +224,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Backend",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend\\Backend.csproj",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
               "RelativeToolTip": "Backend\\Backend.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-11T10:20:55.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MediaTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\MediaTypesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\muzik-projesi\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
               "RelativeToolTip": "Backend\\Controllers\\MediaTypesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
