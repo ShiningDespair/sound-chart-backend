@@ -776,5 +776,5 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.pdb
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\ref\Backend.dll
-C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

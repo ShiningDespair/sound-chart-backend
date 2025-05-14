@@ -34,6 +34,7 @@ public partial class Employee
     public string? Fax { get; set; }
 
     public string? Email { get; set; }
+    public string? Description { get; set; }
 
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 
