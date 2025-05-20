@@ -1,4 +1,5 @@
-﻿using Backend.Models;
+﻿using Backend.DTOs;
+using Backend.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,6 +26,8 @@ public class RevenueRangesController : ControllerBase
         var min = grouped.Min();
         var max = grouped.Max();
 
-        return Ok(new { min, max });
+        var revenueRangesDto = new RevenueRangesDto(min, max);
+
+        return Ok(revenueRangesDto);
     }
 }

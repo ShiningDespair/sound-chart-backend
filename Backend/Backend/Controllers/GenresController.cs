@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Backend.Models;
+using Backend.DTOs;
 
 namespace Backend.Controllers
 {
@@ -43,34 +44,20 @@ namespace Backend.Controllers
                 )
                 .Select(il => new
                 {
-                    Country = il.Invoice.Customer.Country.CountryName,
-                    Genre = il.Track.Genre.Name,
+                    Country = il.Invoice.Customer.Country!.CountryName,
+                    Genre = il.Track.Genre!.Name,
                     TotalSpent = il.UnitPrice * il.Quantity
                 })
                 .GroupBy(x => new { x.Country, x.Genre })
-                .Select(g => new
+                .Select(g => new StackedGenreDto
                 {
-                    Country = g.Key.Country,
-                    Genre = g.Key.Genre,
+                    Country = g.Key.Country!,
+                    Genre = g.Key.Genre!,
                     TotalSpent = g.Sum(x => x.TotalSpent)
                 })
                 .ToListAsync();
 
             return Ok(result);
-        }
-
-        // GET: api/Genres/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Genre>> GetGenre(int id)
-        {
-            var genre = await _context.Genres.FindAsync(id);
-
-            if (genre == null)
-            {
-                return NotFound();
-            }
-
-            return genre;
         }
 
     }

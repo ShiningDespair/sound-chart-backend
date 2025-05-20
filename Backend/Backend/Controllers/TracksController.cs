@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Backend.Models;
+using Backend.DTOs;
 
 namespace Backend.Controllers
 {
@@ -54,7 +55,7 @@ namespace Backend.Controllers
                 query = query.Where(x => x.t.Milliseconds <= maxDuration.Value);
 
             if (!string.IsNullOrEmpty(artist))
-                query = query.Where(x => x.ar.Name.Contains(artist));
+                query = query.Where(x => x.ar.Name!.Contains(artist));
 
             if (!string.IsNullOrEmpty(album))
                 query = query.Where(x => x.a.Title.Contains(album));
@@ -62,9 +63,9 @@ namespace Backend.Controllers
             // Group by CountryId, but return the associated CountryIsoCode
             var grouped = await query
                 .GroupBy(x => x.c.CountryId)  // Group by CountryId
-                .Select(g => new
+                .Select(g => new WorldMapDto
                 {
-                    CountryIsoCode = g.FirstOrDefault().co.CountryIsoCode,  // Retrieve CountryIsoCode
+                    CountryIsoCode = (int)g.FirstOrDefault().co.CountryIsoCode,  // Retrieve CountryIsoCode
                     Country = g.FirstOrDefault().co.CountryName, 
                     TotalSpent = g.Sum(x => x.il.UnitPrice * x.il.Quantity)
                 })

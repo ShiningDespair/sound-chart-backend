@@ -27,18 +27,5 @@ namespace Backend.Controllers
             return await _context.MediaTypes.Distinct().ToListAsync();
         }
 
-        // GET: api/MediaTypes/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<MediaType>> GetMediaType(int id)
-        {
-            var mediaType = await _context.MediaTypes.FindAsync(id);
-
-            if (mediaType == null)
-            {
-                return NotFound();
-            }
-
-            return mediaType;
-        }
     }
 }

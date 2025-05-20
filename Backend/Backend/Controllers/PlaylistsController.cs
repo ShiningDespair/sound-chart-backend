@@ -21,27 +21,6 @@ namespace Backend.Controllers
             _context = context;
         }
 
-        // GET: api/Playlists
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Playlist>>> GetPlaylists()
-        {
-            return await _context.Playlists.ToListAsync();
-        }
-
-        // GET: api/Playlists/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Playlist>> GetPlaylist(int id)
-        {
-            var playlist = await _context.Playlists.FindAsync(id);
-
-            if (playlist == null)
-            {
-                return NotFound();
-            }
-
-            return playlist;
-        }
-
         [HttpGet("Bubble")]
         public async Task<ActionResult<IEnumerable<PlaylistBubbleDto>>> GetBubblePlaylist()
         {

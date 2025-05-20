@@ -1,4 +1,5 @@
-﻿using Backend.Models;
+﻿using Backend.DTOs;
+using Backend.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +22,9 @@ namespace Backend.Controllers
         {
             var min = await _context.Tracks.MinAsync(t => t.Milliseconds)/1000;
             var max = await _context.Tracks.MaxAsync(t => t.Milliseconds)/1000;
-            return Ok(new { min, max });
+            var durationDto = new DurationDto(min, max);
+
+            return Ok(durationDto);
         }
     }
 

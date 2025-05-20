@@ -28,20 +28,6 @@ namespace Backend.Controllers
             return await _context.Artists.Distinct().ToListAsync();
         }
 
-        // GET: api/Artists/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Artist>> GetArtist(int id)
-        {
-            var artist = await _context.Artists.FindAsync(id);
-
-            if (artist == null)
-            {
-                return NotFound();
-            }
-
-            return artist;
-        }
-
         //Get: api/Artists/Cloud
         [HttpGet("Cloud")]
         public async Task<ActionResult<IEnumerable<Artist>>> GetArtistsCloud()
