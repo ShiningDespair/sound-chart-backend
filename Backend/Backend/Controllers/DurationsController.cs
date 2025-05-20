@@ -19,8 +19,8 @@ namespace Backend.Controllers
         [HttpGet]
         public async Task<IActionResult> GetDurationRange()
         {
-            var min = await _context.Tracks.MinAsync(t => t.Milliseconds);
-            var max = await _context.Tracks.MaxAsync(t => t.Milliseconds);
+            var min = await _context.Tracks.MinAsync(t => t.Milliseconds)/1000;
+            var max = await _context.Tracks.MaxAsync(t => t.Milliseconds)/1000;
             return Ok(new { min, max });
         }
     }

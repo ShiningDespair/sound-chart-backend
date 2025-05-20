@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundChartBackend_Tests", "SoundChartBackend_Tests\SoundChartBackend_Tests.csproj", "{BBA05DD8-9118-4EAB-ABDC-B74899271F22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA05DD8-9118-4EAB-ABDC-B74899271F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA05DD8-9118-4EAB-ABDC-B74899271F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA05DD8-9118-4EAB-ABDC-B74899271F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA05DD8-9118-4EAB-ABDC-B74899271F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -778,3 +778,4 @@ C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\De
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\ref\Backend.dll
 C:\Users\LENOVO\Desktop\muzik-projesi\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\Backend\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
