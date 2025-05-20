@@ -116,6 +116,9 @@ public partial class ChinookContext : DbContext
             entity.Property(e => e.BirthDate).HasColumnType("datetime");
             entity.Property(e => e.City).HasMaxLength(40);
             entity.Property(e => e.Country).HasMaxLength(40);
+            entity.Property(e => e.Description)
+                .HasMaxLength(500)
+                .IsUnicode(false);
             entity.Property(e => e.Email).HasMaxLength(60);
             entity.Property(e => e.Fax).HasMaxLength(24);
             entity.Property(e => e.FirstName).HasMaxLength(20);

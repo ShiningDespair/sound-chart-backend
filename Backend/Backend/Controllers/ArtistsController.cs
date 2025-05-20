@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Backend.Models;
+using Backend.DTOs;
 
 namespace Backend.Controllers
 {
@@ -41,9 +42,26 @@ namespace Backend.Controllers
             return artist;
         }
 
-        private bool ArtistExists(int id)
+        //Get: api/Artists/Cloud
+        [HttpGet("Cloud")]
+        public async Task<ActionResult<IEnumerable<Artist>>> GetArtistsCloud()
         {
-            return _context.Artists.Any(e => e.ArtistId == id);
+            var query = from a in _context.Artists
+                        join al in _context.Albums on a.ArtistId equals al.ArtistId
+                        join t in _context.Tracks on al.AlbumId equals t.AlbumId
+                        join il in _context.InvoiceLines on t.TrackId equals il.TrackId
+                        group new { a, il } by a.Name into g
+                        select new ArtistCloudDto
+                        {
+                            Name = g.Key,
+                            Sale = g.Sum(x => x.il.Quantity * x.il.UnitPrice)
+                        };
+            var result = await query
+                .Where(x => x.Sale > 1)
+                .ToListAsync();
+
+            return Ok(result);
         }
+
     }
 }
