@@ -381,3 +381,4 @@ C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backe
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\SoundChartBackend_Tests\obj\Debug\net9.0\SoundChartBackend_Tests.pdb
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\SoundChartBackend_Tests\obj\Debug\net9.0\SoundChartBackend_Tests.genruntimeconfig.cache
 C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\SoundChartBackend_Tests\obj\Debug\net9.0\ref\SoundChartBackend_Tests.dll
+C:\Users\mehme\OneDrive\Masaüstü\Sound-Chart-Backend\sound-chart-backend\Backend\SoundChartBackend_Tests\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll

@@ -60,6 +60,11 @@ namespace Backend.Controllers
             if (!string.IsNullOrEmpty(album))
                 query = query.Where(x => x.a.Title.Contains(album));
 
+            if(!string.IsNullOrEmpty(album) && !string.IsNullOrEmpty(artist))
+            {
+                query = query.Where(x => x.a.Title.Contains(album) && x.ar.Name!.Contains(artist));
+            }
+
             // Group by CountryId, but return the associated CountryIsoCode
             var grouped = await query
                 .GroupBy(x => x.c.CountryId)  // Group by CountryId

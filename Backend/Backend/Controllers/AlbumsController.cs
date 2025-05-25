@@ -31,5 +31,29 @@ namespace Backend.Controllers
         {
             return _context.Albums.Any(e => e.AlbumId == id);
         }
+    
+
+    //GET: api/albums/artistName
+
+    [HttpGet("artistName")]
+        public async Task<ActionResult<IEnumerable<Album>>> GetAlbumsByArtistName([FromQuery] string? artistName)
+        {
+            var query = from a in _context.Albums
+                        join ar in _context.Artists on a.ArtistId equals ar.ArtistId
+                        where ar.Name!.Contains(artistName!)
+                        select new AlbumsByArtists { 
+                            Album = a.Title
+                        };
+            
+            var result = await query.ToListAsync();
+
+            if (!result.Any())
+                return NotFound("No albums found for the given artist name.");
+
+            return Ok(result);
+
+
+        }
+
     }
 }

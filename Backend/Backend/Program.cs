@@ -3,6 +3,16 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Load secrets only in Development
+if (builder.Environment.IsDevelopment())
+{
+    builder.Configuration.AddUserSecrets<Program>();
+}
+
+Console.WriteLine("Loaded connection string:");
+Console.WriteLine(builder.Configuration.GetConnectionString("ChinookContext"));
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

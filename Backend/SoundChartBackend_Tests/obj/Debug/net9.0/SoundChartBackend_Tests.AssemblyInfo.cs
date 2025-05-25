@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoundChartBackend_Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c0670ef2540cbaf1f3992dec428dcc2137e75e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8649bc3310ddefbb8a16aa5841892624a9dd1c38")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoundChartBackend_Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoundChartBackend_Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
