@@ -4,43 +4,97 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Models;
 
+/// <summary>
+/// Represents the Chinook database context for managing entities related to the Chinook music store.
+/// </summary>
 public partial class ChinookContext : DbContext
 {
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ChinookContext"/> class using default settings.
+    /// </summary>
+
     public ChinookContext()
     {
     }
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ChinookContext"/> class with the specified database options.
+    /// </summary>
+    /// <param name="options"></param>
     public ChinookContext(DbContextOptions<ChinookContext> options)
         : base(options)
     {
     }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Album entity, representing the albums in the Chinook database.
+    /// </summary>
     public virtual DbSet<Album> Albums { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Artist entity, representing the artists in the Chinook database.
+    /// </summary>
     public virtual DbSet<Artist> Artists { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Country entity, representing the countries in the Chinook database.
+    /// </summary>
     public virtual DbSet<Country> Countries { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Customer entity, representing the customers in the Chinook database.
+    /// </summary>
     public virtual DbSet<Customer> Customers { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Employee entity, representing the employees in the Chinook database.
+    /// </summary>
     public virtual DbSet<Employee> Employees { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Genre entity, representing the music genres in the Chinook database.
+    /// </summary>
     public virtual DbSet<Genre> Genres { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Invoice entity, representing the invoices in the Chinook database.
+    /// </summary>
     public virtual DbSet<Invoice> Invoices { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the InvoiceLine entity, representing the line items in invoices in the Chinook database.
+    /// </summary>
     public virtual DbSet<InvoiceLine> InvoiceLines { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the MediaType entity, representing the media types in the Chinook database.
+    /// </summary>
     public virtual DbSet<MediaType> MediaTypes { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Playlist entity, representing the playlists in the Chinook database.
+    /// </summary>
     public virtual DbSet<Playlist> Playlists { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for the Track entity, representing the tracks in the Chinook database.
+    /// </summary>
     public virtual DbSet<Track> Tracks { get; set; }
 
+    /// <summary>
+    /// Configures the database context options, such as the connection string and database provider.
+    /// </summary>
+    /// <param name="optionsBuilder"></param>
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=DESKTOP-1QUI6II;Initial Catalog=Chinook;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
 
+
+    /// <summary>
+    /// Configures the model for the Chinook database context, including entity relationships, constraints, and indexes.
+    /// </summary>
+    /// <param name="modelBuilder"></param>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");

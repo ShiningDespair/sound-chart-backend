@@ -112,7 +112,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.9.0, )"
+              "version": "[8.1.2, )"
             },
             "System.Data.SQLite": {
               "target": "Package",
@@ -125,6 +125,10 @@
             "System.Data.SQLite.EF6": {
               "target": "Package",
               "version": "[1.0.119, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             },
             "xunit": {
               "target": "Package",

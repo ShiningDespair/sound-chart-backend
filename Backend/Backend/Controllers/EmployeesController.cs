@@ -11,17 +11,28 @@ using Backend.DTOs;
 
 namespace Backend.Controllers
 {
+    /// <summary>
+    /// Controller for managing employees in the Chinook database.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeesController : ControllerBase
     {
         private readonly ChinookContext _context;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="EmployeesController"/> class with the specified database context.
+        /// </summary>
+        /// <param name="context"></param>
         public EmployeesController(ChinookContext context)
         {
             _context = context;
         }
 
+        /// <summary>
+        /// Retrieves a list of employees with their total sales amount, grouped by employee name for D3.js PieChart.
+        /// </summary>
+        /// <returns>A list of <see cref="Employee"/> objects.</returns>
         // GET: api/Employees for PieChart
         [HttpGet]
         public async Task<ActionResult<List<EmployeeSalesDto>>> GetEmployees()
@@ -44,7 +55,11 @@ namespace Backend.Controllers
 
 
 
-
+        /// <summary>
+        /// Retrieves detailed information about a specific employee by their ID.
+        /// </summary>
+        /// <param name="id">The id of employee to retrieve</param>
+        /// <returns>An object of <see cref="Employee"/>.</returns>
         [HttpGet("detail/{id}")]
         public async Task<ActionResult> GetEmployee(int id)
         {

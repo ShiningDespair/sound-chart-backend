@@ -10,24 +10,38 @@ using Backend.DTOs;
 
 namespace Backend.Controllers
 {
+    /// <summary>
+    /// Controller for managing artists in the Chinook database.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class ArtistsController : ControllerBase
     {
         private readonly ChinookContext _context;
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ArtistsController"/> class with the specified database context.
+        /// </summary>
+        /// <param name="context"></param>
         public ArtistsController(ChinookContext context)
         {
             _context = context;
         }
 
+
+        /// <summary>
+        /// Retrieves all artists
+        /// </summary>
+        /// <returns> A list of <see cref="Artist"/> objects.</returns>
         // GET: api/Artists unique
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Artist>>> GetArtists()
         {
             return await _context.Artists.Distinct().ToListAsync();
         }
-
+        /// <summary>
+        /// Retrieves a list of artists with their total sales amount, grouped by artist name for D3.js word cloud.
+        /// </summary>
+        /// <returns>A list of <see cref="Artist"/> objects.</returns>
         //Get: api/Artists/Cloud
         [HttpGet("Cloud")]
         public async Task<ActionResult<IEnumerable<Artist>>> GetArtistsCloud()

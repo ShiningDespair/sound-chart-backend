@@ -10,17 +10,26 @@ using Backend.DTOs;
 
 namespace Backend.Controllers
 {
+    /// <summary>
+    /// Controller for managing genres in the Chinook database.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class GenresController : ControllerBase
     {
         private readonly ChinookContext _context;
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="GenresController"/> class with the specified database context.
+        /// </summary>
+        /// <param name="context"></param>
         public GenresController(ChinookContext context)
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Retrieves a list of all unique genres from the database.
+        /// </summary>
+        /// <returns>A list of <see cref="Genre"/></returns>
         // GET: api/Genres unique
         [HttpGet]
         public async Task<ActionResult<IEnumerable<string>>> GetGenres()
@@ -31,6 +40,10 @@ namespace Backend.Controllers
                 .ToListAsync();
         }
 
+        /// <summary>
+        /// Retrieves a list of genres with their total sales amount, grouped by genre name for D3.js stacked bar chart.
+        /// </summary>
+        /// <returns>A list of <see cref="StackedGenreDto"/> objects.</returns>
         [HttpGet("stacked")]
         public async Task<ActionResult<IEnumerable<object>>> GetGenresStacked()
         {

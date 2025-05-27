@@ -10,17 +10,28 @@ using Backend.DTOs;
 
 namespace Backend.Controllers
 {
+    /// <summary>
+    /// Controller for managing playlists in the Chinook database.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class PlaylistsController : ControllerBase
     {
         private readonly ChinookContext _context;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PlaylistsController"/> class with the specified database context.
+        /// </summary>
+        /// <param name="context"></param>
         public PlaylistsController(ChinookContext context)
         {
             _context = context;
         }
 
+        /// <summary>
+        /// Retrieves a list of all playlists from the database for D3.js Bubble Chart.
+        /// </summary>
+        /// <returns> A list of <see cref="PlaylistBubbleDto"/></returns>
         [HttpGet("Bubble")]
         public async Task<ActionResult<IEnumerable<PlaylistBubbleDto>>> GetBubblePlaylist()
         {

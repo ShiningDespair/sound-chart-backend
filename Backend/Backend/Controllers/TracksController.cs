@@ -10,18 +10,34 @@ using Backend.DTOs;
 
 namespace Backend.Controllers
 {
+    /// <summary>
+    /// Controller for managing tracks in the Chinook database.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class TracksController : ControllerBase
     {
         private readonly ChinookContext _context;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="TracksController"/> class with the specified database context.
+        /// </summary>
+        /// <param name="context"></param>
         public TracksController(ChinookContext context)
         {
             _context = context;
         }
 
-
+        /// <summary>
+        /// Retrieves a list of tracks grouped by country for a world map visualization.
+        /// </summary>
+        /// <param name="genre"> Filters the results according to genre.</param>
+        /// <param name="minDuration">Filters the results according to minimum duration.</param>
+        /// <param name="maxDuration">Filters the results according to maximum duration.</param>
+        /// <param name="artist">Filters the results according to artist.</param>
+        /// <param name="album">Filters the results according to album.</param>
+        /// <param name="mediaType">Filters the results according to media type.</param>
+        /// <returns> A list of filtered <see cref="WorldMapDto"/> objects. </returns>
         [HttpGet("worldMap")]
         public async Task<ActionResult<IEnumerable<object>>> GetTracksMap(
             [FromQuery] string? genre,
@@ -80,6 +96,10 @@ namespace Backend.Controllers
             return Ok(grouped);
         }
 
+        /// <summary>
+        /// Retrieves a list of all tracks in the database.
+        /// </summary>
+        /// <returns>A list of <see cref="Track"/> objects. </returns>
         // GET: api/Tracks
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Track>>> GetTracks()
@@ -87,6 +107,11 @@ namespace Backend.Controllers
             return await _context.Tracks.ToListAsync();
         }
 
+        /// <summary>
+        /// Retrieves a specific track by its ID.
+        /// </summary>
+        /// <param name="id">The id of track to be retrieved.</param>
+        /// <returns>An object of <see cref="Track"/>.</returns>
         // GET: api/Tracks/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Track>> GetTrack(int id)

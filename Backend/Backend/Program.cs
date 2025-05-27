@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Backend.ML_Models;
 using Backend.Controllers;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,24 @@ Console.WriteLine(builder.Configuration.GetConnectionString("ChinookContext"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Soundchart API",
+        Description = "An API to visualize data about music consumption from Chinook dataset",
+        Contact = new Microsoft.OpenApi.Models.OpenApiContact
+        {
+            Name = "Soundchart Team",
+            Email = "info@duckheadsdev.com",
+            Url = new Uri("https://duckheadsdev.com")
+        }
+    });
+    var filename = Assembly.GetExecutingAssembly().GetName().Name +".xml";
+    var filepath = Path.Combine(AppContext.BaseDirectory, filename);
+    options.IncludeXmlComments(filepath);
+});
 
 builder.Services.AddCors(options =>
 {
@@ -36,6 +55,18 @@ builder.Services.AddDbContext<ChinookContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ChinookContext")));
 
 var app = builder.Build();
+
+//Swagger setup for development
+if(app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Soundchart API");
+    });
+}
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -61,4 +92,7 @@ app.MapControllerRoute(
 
 app.Run();
 
+/// <summary>
+/// Added for testing purposes but stays not functional for v1 version.
+/// </summary>
 public partial class Program { }

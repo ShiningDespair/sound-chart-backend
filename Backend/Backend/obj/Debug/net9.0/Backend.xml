@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend</name>
+    </assembly>
+    <members>
+        <member name="T:Backend.Controllers.AlbumsController">
+            <summary>
+            Controller for managing albums in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initilizes a new instance of <see cref="T:Backend.Controllers.AlbumsController"/> class with specified database context.
+            </summary>
+            <param name="context">The database context used to access album data</param>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.GetAlbums">
+            <summary>
+            Retrieves a list of all albums.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Album"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.GetAlbumsByArtistName(System.String)">
+            <summary>
+            Retrieves a list of albums accordingly to artist name given
+            </summary>
+            <param name="artistName"></param>
+            <returns>A list of <see cref="T:Backend.Models.Album"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.ArtistsController">
+            <summary>
+            Controller for managing artists in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.ArtistsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.GetArtists">
+            <summary>
+            Retrieves all artists
+            </summary>
+            <returns> A list of <see cref="T:Backend.Models.Artist"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.GetArtistsCloud">
+            <summary>
+            Retrieves a list of artists with their total sales amount, grouped by artist name for D3.js word cloud.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Artist"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.DurationsController">
+            <summary>
+            Controller for managing track durations in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.DurationsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.DurationsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.DurationsController.GetDurationRange">
+            <summary>
+            Retrieves the minimum and maximum track durations in seconds from the database.
+            </summary>
+            <returns>Two item list of <see cref="T:Backend.DTOs.DurationDto"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.EmployeesController">
+            <summary>
+            Controller for managing employees in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.EmployeesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.GetEmployees">
+            <summary>
+            Retrieves a list of employees with their total sales amount, grouped by employee name for D3.js PieChart.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Employee"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.GetEmployee(System.Int32)">
+            <summary>
+            Retrieves detailed information about a specific employee by their ID.
+            </summary>
+            <param name="id">The id of employee to retrieve</param>
+            <returns>An object of <see cref="T:Backend.Models.Employee"/>.</returns>
+        </member>
+        <member name="T:Backend.Controllers.ForecastFilesController">
+            <summary>
+            Controller for managing forecast files related to country and genre spending predictions.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ForecastFilesController.GetCountryForecast">
+            <summary>
+            Retrieves the forecast data for top country spending from a pre-generated CSV files.
+            </summary>
+            <returns>A prediction list of <see cref="T:Backend.DTOs.ForecastCountryDto"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.ForecastFilesController.GetGenreForecast">
+            <summary>
+            Retrieves the forecast data for top genre spending from a pre-generated CSV files.
+            </summary>
+            <returns>A prediction list of <see cref="T:Backend.DTOs.ForecastGenreDto"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.GenresController">
+            <summary>
+            Controller for managing genres in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.GenresController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.GetGenres">
+            <summary>
+            Retrieves a list of all unique genres from the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Genre"/></returns>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.GetGenresStacked">
+            <summary>
+            Retrieves a list of genres with their total sales amount, grouped by genre name for D3.js stacked bar chart.
+            </summary>
+            <returns>A list of <see cref="T:Backend.DTOs.StackedGenreDto"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.MediaTypesController">
+            <summary>
+            Controller for managing media types in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.MediaTypesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.MediaTypesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.MediaTypesController.GetMediaTypes">
+            <summary>
+            Retrieves a list of all unique media types from the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.MediaType"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.PlaylistsController">
+            <summary>
+            Controller for managing playlists in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.PlaylistsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.PlaylistsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.PlaylistsController.GetBubblePlaylist">
+            <summary>
+            Retrieves a list of all playlists from the database for D3.js Bubble Chart.
+            </summary>
+            <returns> A list of <see cref="T:Backend.DTOs.PlaylistBubbleDto"/></returns>
+        </member>
+        <member name="T:Backend.Controllers.TracksController">
+            <summary>
+            Controller for managing tracks in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.TracksController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTracksMap(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String)">
+            <summary>
+            Retrieves a list of tracks grouped by country for a world map visualization.
+            </summary>
+            <param name="genre"> Filters the results according to genre.</param>
+            <param name="minDuration">Filters the results according to minimum duration.</param>
+            <param name="maxDuration">Filters the results according to maximum duration.</param>
+            <param name="artist">Filters the results according to artist.</param>
+            <param name="album">Filters the results according to album.</param>
+            <param name="mediaType">Filters the results according to media type.</param>
+            <returns> A list of filtered <see cref="T:Backend.DTOs.WorldMapDto"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTracks">
+            <summary>
+            Retrieves a list of all tracks in the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Track"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTrack(System.Int32)">
+            <summary>
+            Retrieves a specific track by its ID.
+            </summary>
+            <param name="id">The id of track to be retrieved.</param>
+            <returns>An object of <see cref="T:Backend.Models.Track"/>.</returns>
+        </member>
+        <member name="T:Backend.Controllers.ValuesController">
+            <summary>
+            Controller for managing values in the application.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Get">
+            <summary>
+            Retrieves a list of string values.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Retrieves a specific value by its ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Creates a new value based on the provided string input.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Updates an existing value identified by its ID with the provided string input.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Deletes a value identified by its ID.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:Backend.Controllers.AlbumsByArtistsDto">
+            <summary>
+            Data Transfer Object (DTO) for albums grouped by artists.
+            </summary>
+        </member>
+        <member name="P:Backend.Controllers.AlbumsByArtistsDto.Album">
+            <summary>
+            Gets or sets the title of the album.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ArtistCloudDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for artist cloud visualization.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ArtistCloudDto.Name">
+            <summary>
+            Represents the name of the artist.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ArtistCloudDto.Sale">
+            <summary>
+            Represents the total sales amount for the artist.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.CountryRevenueDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for country revenue visualization.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CountryRevenueDto.Country">
+            <summary>
+            Gets or sets the name of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CountryRevenueDto.TotalRevenue">
+            <summary>
+            Gets or sets the total revenue generated from the country.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.DurationDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for duration filtering in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.DurationDto.Min">
+            <summary>
+            Gets or sets the minimum duration in seconds.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.DurationDto.Max">
+            <summary>
+            Gets or sets the maximum duration in seconds.
+            </summary>
+        </member>
+        <member name="M:Backend.DTOs.DurationDto.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.DTOs.DurationDto"/> class with specified minimum and maximum durations.
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="T:Backend.DTOs.EmployeeDetailDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for employee details.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.FirstName">
+            <summary>
+            Gets or sets the first name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.LastName">
+            <summary>
+            Gets or sets the last name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Title">
+            <summary>
+            Gets or sets the title of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Country">
+            <summary>
+            Gets or sets the country of the employee's location.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.City">
+            <summary>
+            Gets or sets the city of the employee's location.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Description">
+            <summary>
+            Gets or sets the short text that describes the employee's role or responsibilities.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.EmployeeSalesDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for employee sales data.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.EmployeeId">
+            <summary>
+            Gets or sets the unique identifier for the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.FullName">
+            <summary>
+            Gets or sets the full name of the employee, combining first and last names.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.TotalSold">
+            <summary>
+            Gets or sets the total sales amount for the employee, representing the sum of all sales made by the employee.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ForecastCountryDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for country-specific forecast data.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.CountryName">
+            <summary>
+            Gets or sets the name of the country for which the forecast is made.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.Last3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of sales that happend in the given country in last 3 months (Average).
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.Forecast3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of forcasted sales that happend in the given country in next 3 months (Average).
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ForecastGenreDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for genre forecasts.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.GenreName">
+            <summary>
+            Gets or sets the name of the genre.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.Last3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of sales that happened in the given genre in the last 3 months (Average).
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.Forecast3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of forecasted sales that will happen in the given genre in the next 3 months (Average).
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.PlaylistBubbleDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for playlist bubbles in a D3.js Bubble Chart.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.PlaylistBubbleDto.Name">
+            <summary>
+            Gets or sets the name of the playlist.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.PlaylistBubbleDto.Sale">
+            <summary>
+            Represents the total sales amount for the playlist.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.RevenueRangesDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for revenue ranges.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.RevenueRangesDto.Min">
+            <summary>
+            Gets or sets the minimum revenue value.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.RevenueRangesDto.Max">
+            <summary>
+            Gets or sets the maximum revenue value.
+            </summary>
+        </member>
+        <member name="M:Backend.DTOs.RevenueRangesDto.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.DTOs.RevenueRangesDto"/> class with specified minimum and maximum revenue values.
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="T:Backend.DTOs.StackedGenreDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for genre sales data, used for D3.js stacked bar chart visualizations.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.Country">
+            <summary>
+            Represents the country where the sales occurred.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.Genre">
+            <summary>
+            Represents the genre of the music or product sold.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.TotalSpent">
+            <summary>
+            Represents the total amount of sales in the specified genre for the given country.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.WorldMapDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for world map visualization of total sales by country on D3.js World Map Chart.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.CountryIsoCode">
+            <summary>
+            Gets or sets the ISO code of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.Country">
+            <summary>
+            Gets or sets the name of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.TotalSpent">
+            <summary>
+            Gets or sets the amount of total spendings for the country.
+            </summary>
+        </member>
+        <member name="T:RevenueRangesController">
+            <summary>
+            Controller for managing revenue ranges in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:RevenueRangesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RevenueRangesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:RevenueRangesController.GetRevenueRanges">
+            <summary>
+            Retrieves the minimum and maximum revenue ranges from the invoice lines.
+            </summary>
+            <returns> A list of <see cref="T:Backend.DTOs.RevenueRangesDto"/> objects.</returns>
+        </member>
+    </members>
+</doc>

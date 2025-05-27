@@ -4,8 +4,15 @@ using Backend.ML_Models;
 using Microsoft.ML;
 using Microsoft.ML.Transforms.TimeSeries;
 
+/// <summary>
+/// ForecastModel class provides methods to generate forecasts for top country and genre spending.
+/// </summary>
 public static class ForecastModel
 {
+    /// <summary>
+    /// Generates a forecast for the top country spending by month and saves it to a JSON file.
+    /// </summary>
+    /// <returns></returns>
     public static string ForecastTopCountrySpending()
     {
         return RunForecast(
@@ -15,6 +22,10 @@ public static class ForecastModel
         );
     }
 
+    /// <summary>
+    /// Generates a forecast for the top genres by month and saves it to a JSON file.
+    /// </summary>
+    /// <returns></returns>
     public static string ForecastTopGenres()
     {
         return RunForecast(
@@ -23,6 +34,18 @@ public static class ForecastModel
             outputFileName: "genre_forecast.json"
         );
     }
+
+    /// <summary>
+    /// Runs a time series forecasting model (SSA) on a dataset grouped by item (e.g., country or genre),
+    /// calculates the average values for the last 3 known months and the next 3 forecasted months,
+    /// and outputs the results as a JSON file.
+    /// </summary>
+    /// <param name="filePath">The full path to the input CSV file. The file must have columns: Name, Date (yyyy-MM-dd), and Value.</param>
+    /// <param name="itemLabel">The label type used for grouping data (e.g., "Country" or "Genre"). Determines JSON property names.</param>
+    /// <param name="outputFileName">The filename (including extension) for the generated JSON output. This parameter is deprecated but still used.</param>
+    /// <returns>Returns the full path to the generated JSON file containing forecast results.</returns>
+    /// <exception cref="FileNotFoundException">Thrown when the input file does not exist.</exception>
+    /// <exception cref="Exception">Thrown if no forecasts could be generated due to insufficient data or processing errors.</exception>
 
     public static string RunForecast(string filePath, string itemLabel, string outputFileName)
     {
@@ -52,16 +75,16 @@ public static class ForecastModel
             .Where(r => r != null)
             .ToList()!;
 
-        var grouped = allData.GroupBy(r => r.Name);
+        var grouped = allData.GroupBy(r => r!.Name);
         var mlContext = new MLContext();
         var allForecasts = new List<object>();
 
         foreach (var group in grouped)
         {
             var name = group.Key!;
-            var dataList = group.OrderBy(r => r.Date).Select(r => new TimeSeriesInput
+            var dataList = group.OrderBy(r => r!.Date).Select(r => new TimeSeriesInput
             {
-                Date = r.Date,
+                Date = r!.Date,
                 Value = r.Value
             }).ToList();
 
