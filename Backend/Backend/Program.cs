@@ -1,5 +1,7 @@
-using Backend.Models;
+﻿using Backend.Models;
 using Microsoft.EntityFrameworkCore;
+using Backend.ML_Models;
+using Backend.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,5 +59,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-
 app.Run();
+
+public partial class Program { }

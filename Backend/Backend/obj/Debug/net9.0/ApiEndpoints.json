@@ -132,6 +132,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.Controllers.ForecastFilesController",
+    "Method": "GetCountryForecast",
+    "RelativePath": "api/ForecastFiles/country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.ForecastFilesController",
+    "Method": "GetGenreForecast",
+    "RelativePath": "api/ForecastFiles/genre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Backend.Controllers.GenresController",
     "Method": "GetGenres",
     "RelativePath": "api/Genres",

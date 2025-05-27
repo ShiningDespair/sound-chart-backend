@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MLtest"
+    "\\Backend\\Predictions",
+    "\\MLtest\\forecast",
+    "\\MLtest\\obj"
   ],
-  "SelectedNode": "\\Backend",
+  "SelectedNode": "\\MLtest",
   "PreviewInSolutionExplorer": false
 }
