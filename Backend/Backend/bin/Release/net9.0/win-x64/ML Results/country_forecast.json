@@ -1,0 +1,32 @@
+[
+  {
+    "CountryName": "USA",
+    "Last3MonthsAverage": 543.67,
+    "Forecast3MonthsAverage": 537.65
+  },
+  {
+    "CountryName": "Germany",
+    "Last3MonthsAverage": 868.33,
+    "Forecast3MonthsAverage": 841.57
+  },
+  {
+    "CountryName": "Canada",
+    "Last3MonthsAverage": 866.67,
+    "Forecast3MonthsAverage": 869.79
+  },
+  {
+    "CountryName": "France",
+    "Last3MonthsAverage": 524.67,
+    "Forecast3MonthsAverage": 545.79
+  },
+  {
+    "CountryName": "Brazil",
+    "Last3MonthsAverage": 1449.33,
+    "Forecast3MonthsAverage": 1439.79
+  },
+  {
+    "CountryName": "United Kingdom",
+    "Last3MonthsAverage": 540.67,
+    "Forecast3MonthsAverage": 533.83
+  }
+]

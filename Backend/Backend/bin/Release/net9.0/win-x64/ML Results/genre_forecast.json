@@ -1,0 +1,32 @@
+[
+  {
+    "GenreName": "Rock",
+    "Last3MonthsAverage": 70,
+    "Forecast3MonthsAverage": 67.54
+  },
+  {
+    "GenreName": "Pop",
+    "Last3MonthsAverage": 235.67,
+    "Forecast3MonthsAverage": 237.56
+  },
+  {
+    "GenreName": "Jazz",
+    "Last3MonthsAverage": 215,
+    "Forecast3MonthsAverage": 211.77
+  },
+  {
+    "GenreName": "Classical",
+    "Last3MonthsAverage": 107.67,
+    "Forecast3MonthsAverage": 106.93
+  },
+  {
+    "GenreName": "Hip-Hop",
+    "Last3MonthsAverage": 236.33,
+    "Forecast3MonthsAverage": 234.3
+  },
+  {
+    "GenreName": "Metal",
+    "Last3MonthsAverage": 237.67,
+    "Forecast3MonthsAverage": 236.5
+  }
+]

@@ -3,127 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\albumbyartistsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\albumbyartistsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\durationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\durationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\worldmapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\worldmapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\revenuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\revenuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\stackedgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\stackedgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\revenuerangesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\revenuerangesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\playlistbubbledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\playlistbubbledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\forecastgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\forecastgenredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\forecastcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\forecastcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\employeesalesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\employeesalesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\employeedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\employeedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\countryrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\countryrevenuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\artistclouddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\artistclouddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\trackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\mediatypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\mediatypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\forecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\forecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\durationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\durationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mehme\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\ml models\\forecastinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\ml models\\forecastinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\ml models\\forecastmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\ml models\\forecastmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\chinookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\invoiceline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\invoiceline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBA05DD8-9118-4EAB-ABDC-B74899271F22}|SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\soundchartbackend_tests\\soundchartbackend_tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BBA05DD8-9118-4EAB-ABDC-B74899271F22}|SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj|solutionrelative:soundchartbackend_tests\\soundchartbackend_tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\controllers\\durationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\durationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|c:\\users\\mehme\\onedrive\\masa\u00FCst\u00FC\\sound-chart-backend\\sound-chart-backend\\backend\\backend\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC27D021-2E09-4EC7-BDDB-18D21AB1DCB0}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -133,123 +82,189 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlbumByArtistsDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\AlbumByArtistsDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\AlbumByArtistsDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\AlbumByArtistsDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\AlbumByArtistsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:22:46.811Z",
+              "WhenOpened": "2025-06-07T21:27:34.601Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WorldMapDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\WorldMapDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\WorldMapDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\WorldMapDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\WorldMapDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Title": "Track.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Track.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Track.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Track.cs",
+              "RelativeToolTip": "Backend\\Models\\Track.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:20:44.457Z",
+              "WhenOpened": "2025-06-08T15:46:09.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Playlist.cs",
+              "RelativeToolTip": "Backend\\Models\\Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:45:50.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChinookContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\ChinookContext.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
+              "RelativeToolTip": "Backend\\Models\\ChinookContext.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAgwO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:18:21.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MediaType.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\MediaType.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\MediaType.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\MediaType.cs",
+              "RelativeToolTip": "Backend\\Models\\MediaType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:45:26.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StackedGenreDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\StackedGenreDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\StackedGenreDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\StackedGenreDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\StackedGenreDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "Title": "InvoiceLine.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\InvoiceLine.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\InvoiceLine.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\InvoiceLine.cs",
+              "RelativeToolTip": "Backend\\Models\\InvoiceLine.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:20:13.422Z",
+              "WhenOpened": "2025-06-08T15:38:53.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RevenueRangesDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\RevenueRangesDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\RevenueRangesDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\RevenueRangesDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\RevenueRangesDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACFAAAAAAAAAA==",
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Invoice.cs",
+              "RelativeToolTip": "Backend\\Models\\Invoice.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:19:51.264Z",
+              "WhenOpened": "2025-06-08T15:27:15.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PlaylistBubbleDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\PlaylistBubbleDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\PlaylistBubbleDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\PlaylistBubbleDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\PlaylistBubbleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Genre.cs",
+              "RelativeToolTip": "Backend\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:19:35.332Z",
+              "WhenOpened": "2025-06-08T15:26:37.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Employee.cs",
+              "RelativeToolTip": "Backend\\Models\\Employee.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAywCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:23:11.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Customer.cs",
+              "RelativeToolTip": "Backend\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:20:34.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "EmployeeSalesDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\EmployeeSalesDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\EmployeeSalesDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\EmployeeSalesDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\EmployeeSalesDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB5AAAAAAAAAA==",
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Country.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Country.cs",
+              "RelativeToolTip": "Backend\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:17:35.405Z",
+              "WhenOpened": "2025-06-08T15:19:37.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DurationDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\DurationDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\DurationDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\DurationDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\DurationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAB7AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Comment.cs",
+              "RelativeToolTip": "Backend\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:15:52.958Z",
+              "WhenOpened": "2025-06-08T15:18:23.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CountryRevenueDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\CountryRevenueDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CountryRevenueDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\CountryRevenueDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Artist.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Artist.cs",
+              "RelativeToolTip": "Backend\\Models\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:15:33.323Z",
+              "WhenOpened": "2025-06-08T15:17:39.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ArtistCloudDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ArtistCloudDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\ArtistCloudDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ArtistCloudDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\ArtistCloudDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABPAAAAAAAAAA==",
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "Backend\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Album.cs",
+              "RelativeToolTip": "Backend\\Models\\Album.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:59:51.92Z",
+              "WhenOpened": "2025-06-08T15:16:03.484Z",
               "EditorCaption": ""
             },
             {
@@ -258,288 +273,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwDoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:14:20.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "TracksController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\TracksController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\TracksController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\TracksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:11:27.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RevenuesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\RevenuesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\RevenuesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\RevenuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:10:39.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlaylistsController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\PlaylistsController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\PlaylistsController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\PlaylistsController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\PlaylistsController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCEAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:09:35.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MediaTypesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\MediaTypesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\MediaTypesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\MediaTypesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:09:02.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "GenresController.cs",
               "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\GenresController.cs",
               "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\GenresController.cs",
               "RelativeToolTip": "Backend\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowD8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:07:24.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T22:45:28.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\EmployeeDetailDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\EmployeeDetailDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\EmployeeDetailDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\EmployeeDetailDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:03:45.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ForecastGenreDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ForecastGenreDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\ForecastGenreDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ForecastGenreDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\ForecastGenreDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:00:00.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ForecastCountryDto.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ForecastCountryDto.cs",
-              "RelativeDocumentMoniker": "Backend\\DTOs\\ForecastCountryDto.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\ForecastCountryDto.cs",
-              "RelativeToolTip": "Backend\\DTOs\\ForecastCountryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:57:33.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ForecastController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ForecastController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ForecastController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:56:05.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:53:16.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AlbumsController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\AlbumsController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\AlbumsController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\AlbumsController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\AlbumsController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAewDgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:38:15.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ArtistsController.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
-              "RelativeDocumentMoniker": "Backend\\Controllers\\ArtistsController.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\ArtistsController.cs",
-              "RelativeToolTip": "Backend\\Controllers\\ArtistsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:23:21.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
               "Title": "DurationsController.cs",
               "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\DurationsController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\DurationsController.cs",
               "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\DurationsController.cs",
               "RelativeToolTip": "Backend\\Controllers\\DurationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:05:33.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T22:45:24.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAwG0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:23:58.382Z",
+              "WhenOpened": "2025-06-07T15:55:41.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Microsoft.NET.Test.Sdk.Program.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs",
-              "ToolTip": "C:\\Users\\mehme\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\17.12.0\\build\\netcoreapp3.1\\Microsoft.NET.Test.Sdk.Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Backend\\DTOs\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\DTOs\\CommentDto.cs",
+              "RelativeToolTip": "Backend\\DTOs\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:17:48.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Backend",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
-              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Backend.csproj",
-              "RelativeToolTip": "Backend\\Backend.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T15:32:49.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ForecastModel.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\ML Models\\ForecastModel.cs",
-              "RelativeDocumentMoniker": "Backend\\ML Models\\ForecastModel.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\ML Models\\ForecastModel.cs",
-              "RelativeToolTip": "Backend\\ML Models\\ForecastModel.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAADwv2QAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:33:02.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ForecastInput.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\ML Models\\ForecastInput.cs",
-              "RelativeDocumentMoniker": "Backend\\ML Models\\ForecastInput.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\ML Models\\ForecastInput.cs",
-              "RelativeToolTip": "Backend\\ML Models\\ForecastInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:33:01.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ChinookContext.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\ChinookContext.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\ChinookContext.cs",
-              "RelativeToolTip": "Backend\\Models\\ChinookContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAlwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:21:25.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "SoundChartBackend_Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj",
-              "RelativeDocumentMoniker": "SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj",
-              "RelativeToolTip": "SoundChartBackend_Tests\\SoundChartBackend_Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T12:07:23.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Album.cs",
-              "RelativeDocumentMoniker": "Backend\\Models\\Album.cs",
-              "ToolTip": "C:\\Users\\mehme\\OneDrive\\Masa\u00FCst\u00FC\\Sound-Chart-Backend\\sound-chart-backend\\Backend\\Backend\\Models\\Album.cs",
-              "RelativeToolTip": "Backend\\Models\\Album.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:05:29.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T20:55:37.461Z"
             }
           ]
         },

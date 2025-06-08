@@ -17,7 +17,13 @@ Console.WriteLine(builder.Configuration.GetConnectionString("ChinookContext"));
 
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllers(options =>
+{
+    options.SuppressOutputFormatterBuffering = true;
+});
+
+
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -56,39 +62,37 @@ builder.Services.AddDbContext<ChinookContext>(options =>
 
 var app = builder.Build();
 
-//Swagger setup for development
-if(app.Environment.IsDevelopment())
-{
+//Swagger setup 
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Soundchart API");
+        options.RoutePrefix = "api/docs";
     });
-}
 
 
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
 app.UseRouting();
+
 app.UseCors("AllowAllOrigins");
 
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+
 app.MapStaticAssets();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+app.MapControllers();
+
+
 
 app.Run();
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-07T22:28:48.3116124Z||;True|2025-06-08T01:10:50.2958434+03:00||;True|2025-06-08T01:01:57.3178448+03:00||;True|2025-06-08T00:58:25.0824931+03:00||;True|2025-06-08T00:49:07.1904246+03:00||;True|2025-06-07T19:37:02.8394931+03:00||;True|2025-06-03T18:46:25.3093279+03:00||;True|2025-05-29T15:50:36.6805869+03:00||;False|2025-05-29T15:49:05.8741205+03:00||;False|2025-05-29T15:48:52.3762631+03:00||;True|2025-05-29T15:44:11.0052704+03:00||;False|2025-05-29T14:28:08.8965773+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ChinookContext">
+      <Value>Server=soundchart.mssql.somee.com%3bInitial Catalog=soundchart%3bUser Id=pascalmk_SQLLogin_1%3bPassword=ze4wki75nm%3bEncrypt=False%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Backend.Models.ChinookContext">
+      <Value>Server=soundchart.mssql.somee.com%3bInitial Catalog=soundchart%3bUser Id=pascalmk_SQLLogin_1%3bPassword=ze4wki75nm%3bEncrypt=False%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

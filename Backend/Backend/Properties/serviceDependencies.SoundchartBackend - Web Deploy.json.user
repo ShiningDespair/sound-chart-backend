@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2025-05-29T11:15:43.5252938Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2025-05-29T11:23:50.8698328Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "SoundchartResourceGroup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "675e1948-e1a2-4125-8c8a-1d8f7483ca6f"
+    }
+  }
+}

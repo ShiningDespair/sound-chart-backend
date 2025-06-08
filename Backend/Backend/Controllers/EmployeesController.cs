@@ -65,7 +65,7 @@ namespace Backend.Controllers
         {
             var employees = await _context.Employees
                 .Where(e => e.EmployeeId == id)
-                .ToListAsync(); 
+                .ToListAsync();
 
             if (!employees.Any())
                 return NotFound();
@@ -82,5 +82,71 @@ namespace Backend.Controllers
 
             return Ok(result);
         }
+
+        /// <summary>
+        /// Retrieves a list of comments associated with a specific employee by their ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>A list of <see cref="CommentDto"/> objects. </returns>
+        [HttpGet("{id}/comments")]
+        public async Task<ActionResult<List<CommentDto>>> GetCommentsOfEmployee(int id)
+        {
+            var comments = await _context.Comments
+                .Where(co => co.EmployeeId == id)
+                .Select(co => new CommentDto
+                {
+                    id = id,
+                    text = co.Comment1
+                })
+                .ToListAsync();
+
+            return Ok(comments);
+        }
+
+        /// <summary>
+        /// Creates a new comment for an employee.
+        /// </summary>
+        /// <param name="commentDto"></param>
+        /// <returns></returns>
+        [HttpPost("{id}/comments")]
+        public async Task<ActionResult<CommentDto>> PostComment([FromBody] CommentDto commentDto)
+        {
+            if (commentDto == null || string.IsNullOrWhiteSpace(commentDto.text))
+            {
+                return BadRequest("Comment text cannot be empty.");
+            }
+
+            var comment = new Comment
+            {
+                EmployeeId = commentDto.id,
+                Comment1 = commentDto.text
+            };
+
+            _context.Comments.Add(comment);
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        /// <summary>
+        /// Deletes a comment by its ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete("comments/{id}")]
+        public async Task<ActionResult> DeleteComment(int id)
+        {
+            var comment = await _context.Comments.FindAsync(id);
+            if (comment == null)
+            {
+                return NotFound();
+            }
+            _context.Entry(comment).State = EntityState.Deleted;
+            await _context.SaveChangesAsync();
+            return Ok("Successfuly Deleted");
+        }
+
+
+
     }
 }

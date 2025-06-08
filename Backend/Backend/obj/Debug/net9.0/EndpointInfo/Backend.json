@@ -795,14 +795,17 @@
         "properties": {
           "albumId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the album.",
             "format": "int32"
           },
           "title": {
             "type": "string",
+            "description": "Gets or sets the title of the album.",
             "nullable": true
           },
           "artistId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the artist associated with the album.",
             "format": "int32"
           },
           "artist": {
@@ -813,20 +816,24 @@
             "items": {
               "$ref": "#/components/schemas/Track"
             },
+            "description": "Gets or sets the collection of tracks associated with the album.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents an album in the Chinook database."
       },
       "Artist": {
         "type": "object",
         "properties": {
           "artistId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the artist.",
             "format": "int32"
           },
           "name": {
             "type": "string",
+            "description": "Gets or sets the name of the artist.",
             "nullable": true
           },
           "albums": {
@@ -834,29 +841,35 @@
             "items": {
               "$ref": "#/components/schemas/Album"
             },
+            "description": "Gets or sets the collection of albums associated with the artist.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents an artist in the Chinook database."
       },
       "Country": {
         "type": "object",
         "properties": {
           "countryId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the country.",
             "format": "int32"
           },
           "countryName": {
             "type": "string",
+            "description": "Gets or sets the name of the country.",
             "nullable": true
           },
           "countryIsoCode": {
             "type": "integer",
+            "description": "Gets or sets the ISO code for the country.",
             "format": "int32",
             "nullable": true
           },
           "countryCode": {
             "type": "string",
+            "description": "Gets or sets the country code for the country.",
             "nullable": true
           },
           "customers": {
@@ -864,65 +877,80 @@
             "items": {
               "$ref": "#/components/schemas/Customer"
             },
+            "description": "Gets or sets the collection of customers associated with the country.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a country in the Chinook database."
       },
       "Customer": {
         "type": "object",
         "properties": {
           "customerId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the customer.",
             "format": "int32"
           },
           "firstName": {
             "type": "string",
+            "description": "Gets or sets the first name of the customer.",
             "nullable": true
           },
           "lastName": {
             "type": "string",
+            "description": "Gets or sets the last name of the customer.",
             "nullable": true
           },
           "company": {
             "type": "string",
+            "description": "Gets or sets the company name associated with the customer.",
             "nullable": true
           },
           "address": {
             "type": "string",
+            "description": "Gets or sets the address of the customer.",
             "nullable": true
           },
           "city": {
             "type": "string",
+            "description": "Gets or sets the city of the customer.",
             "nullable": true
           },
           "state": {
             "type": "string",
+            "description": "Gets or sets the state of the customer.",
             "nullable": true
           },
           "postalCode": {
             "type": "string",
+            "description": "Gets or sets the postal code of the customer.",
             "nullable": true
           },
           "phone": {
             "type": "string",
+            "description": "Gets or sets the phone number of the customer.",
             "nullable": true
           },
           "fax": {
             "type": "string",
+            "description": "Gets or sets the fax number of the customer.",
             "nullable": true
           },
           "email": {
             "type": "string",
+            "description": "Gets or sets the email address of the customer.",
             "nullable": true
           },
           "supportRepId": {
             "type": "integer",
+            "description": "Gets or sets the support representative's employee ID.",
             "format": "int32",
             "nullable": true
           },
           "countryId": {
             "type": "integer",
+            "description": "Gets or sets the country ID associated with the customer.",
             "format": "int32",
             "nullable": true
           },
@@ -934,82 +962,100 @@
             "items": {
               "$ref": "#/components/schemas/Invoice"
             },
+            "description": "Gets or sets the collection of invoices for the customer.",
             "nullable": true
           },
           "supportRep": {
             "$ref": "#/components/schemas/Employee"
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a customer in the Chinook database."
       },
       "Employee": {
         "type": "object",
         "properties": {
           "employeeId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the employee.",
             "format": "int32"
           },
           "lastName": {
             "type": "string",
+            "description": "Gets or sets the last name of the employee.",
             "nullable": true
           },
           "firstName": {
             "type": "string",
+            "description": "Gets or sets the first name of the employee.",
             "nullable": true
           },
           "title": {
             "type": "string",
+            "description": "Gets or sets the job title of the employee.",
             "nullable": true
           },
           "reportsTo": {
             "type": "integer",
+            "description": "Gets or sets the employee ID to whom this employee reports.",
             "format": "int32",
             "nullable": true
           },
           "birthDate": {
             "type": "string",
+            "description": "Gets or sets the birth date of the employee.",
             "format": "date-time",
             "nullable": true
           },
           "hireDate": {
             "type": "string",
+            "description": "Gets or sets the hire date of the employee.",
             "format": "date-time",
             "nullable": true
           },
           "address": {
             "type": "string",
+            "description": "Gets or sets the address of the employee.",
             "nullable": true
           },
           "city": {
             "type": "string",
+            "description": "Gets or sets the city of the employee.",
             "nullable": true
           },
           "state": {
             "type": "string",
+            "description": "Gets or sets the state of the employee.",
             "nullable": true
           },
           "country": {
             "type": "string",
+            "description": "Gets or sets the country of the employee.",
             "nullable": true
           },
           "postalCode": {
             "type": "string",
+            "description": "Gets or sets the postal code of the employee.",
             "nullable": true
           },
           "phone": {
             "type": "string",
+            "description": "Gets or sets the phone number of the employee.",
             "nullable": true
           },
           "fax": {
             "type": "string",
+            "description": "Gets or sets the fax number of the employee.",
             "nullable": true
           },
           "email": {
             "type": "string",
+            "description": "Gets or sets the email address of the employee.",
             "nullable": true
           },
           "description": {
             "type": "string",
+            "description": "Gets or sets the description or notes for the employee.",
             "nullable": true
           },
           "customers": {
@@ -1017,6 +1063,7 @@
             "items": {
               "$ref": "#/components/schemas/Customer"
             },
+            "description": "Gets or sets the collection of customers associated with the employee.",
             "nullable": true
           },
           "inverseReportsToNavigation": {
@@ -1024,13 +1071,15 @@
             "items": {
               "$ref": "#/components/schemas/Employee"
             },
+            "description": "Gets or sets the collection of employees who report to this employee.",
             "nullable": true
           },
           "reportsToNavigation": {
             "$ref": "#/components/schemas/Employee"
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents an employee in the Chinook database."
       },
       "EmployeeSalesDto": {
         "type": "object",
@@ -1059,10 +1108,12 @@
         "properties": {
           "genreId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the genre.",
             "format": "int32"
           },
           "name": {
             "type": "string",
+            "description": "Gets or sets the name of the genre.",
             "nullable": true
           },
           "tracks": {
@@ -1070,48 +1121,59 @@
             "items": {
               "$ref": "#/components/schemas/Track"
             },
+            "description": "Gets or sets the collection of tracks associated with the genre.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a genre in the Chinook database."
       },
       "Invoice": {
         "type": "object",
         "properties": {
           "invoiceId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the invoice.",
             "format": "int32"
           },
           "customerId": {
             "type": "integer",
+            "description": "Gets or sets the customer ID associated with the invoice.",
             "format": "int32"
           },
           "invoiceDate": {
             "type": "string",
+            "description": "Gets or sets the date the invoice was created.",
             "format": "date-time"
           },
           "billingAddress": {
             "type": "string",
+            "description": "Gets or sets the billing address for the invoice.",
             "nullable": true
           },
           "billingCity": {
             "type": "string",
+            "description": "Gets or sets the billing city for the invoice.",
             "nullable": true
           },
           "billingState": {
             "type": "string",
+            "description": "Gets or sets the billing state for the invoice.",
             "nullable": true
           },
           "billingCountry": {
             "type": "string",
+            "description": "Gets or sets the billing country for the invoice.",
             "nullable": true
           },
           "billingPostalCode": {
             "type": "string",
+            "description": "Gets or sets the billing postal code for the invoice.",
             "nullable": true
           },
           "total": {
             "type": "number",
+            "description": "Gets or sets the total amount for the invoice.",
             "format": "double"
           },
           "customer": {
@@ -1122,32 +1184,39 @@
             "items": {
               "$ref": "#/components/schemas/InvoiceLine"
             },
+            "description": "Gets or sets the collection of invoice lines for the invoice.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents an invoice in the Chinook database."
       },
       "InvoiceLine": {
         "type": "object",
         "properties": {
           "invoiceLineId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the invoice line.",
             "format": "int32"
           },
           "invoiceId": {
             "type": "integer",
+            "description": "Gets or sets the invoice ID to which this line belongs.",
             "format": "int32"
           },
           "trackId": {
             "type": "integer",
+            "description": "Gets or sets the track ID for the item being invoiced.",
             "format": "int32"
           },
           "unitPrice": {
             "type": "number",
+            "description": "Gets or sets the unit price for the track.",
             "format": "double"
           },
           "quantity": {
             "type": "integer",
+            "description": "Gets or sets the quantity of the track being invoiced.",
             "format": "int32"
           },
           "invoice": {
@@ -1157,17 +1226,20 @@
             "$ref": "#/components/schemas/Track"
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a line item in an invoice, linking a track to an invoice with quantity and price."
       },
       "MediaType": {
         "type": "object",
         "properties": {
           "mediaTypeId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the media type.",
             "format": "int32"
           },
           "name": {
             "type": "string",
+            "description": "Gets or sets the name of the media type.",
             "nullable": true
           },
           "tracks": {
@@ -1175,20 +1247,24 @@
             "items": {
               "$ref": "#/components/schemas/Track"
             },
+            "description": "Gets or sets the collection of tracks associated with this media type.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a media type in the Chinook database."
       },
       "Playlist": {
         "type": "object",
         "properties": {
           "playlistId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the playlist.",
             "format": "int32"
           },
           "name": {
             "type": "string",
+            "description": "Gets or sets the name of the playlist.",
             "nullable": true
           },
           "tracks": {
@@ -1196,10 +1272,12 @@
             "items": {
               "$ref": "#/components/schemas/Track"
             },
+            "description": "Gets or sets the collection of tracks associated with the playlist.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a playlist in the Chinook database."
       },
       "PlaylistBubbleDto": {
         "required": [
@@ -1226,41 +1304,50 @@
         "properties": {
           "trackId": {
             "type": "integer",
+            "description": "Gets or sets the unique identifier for the track.",
             "format": "int32"
           },
           "name": {
             "type": "string",
+            "description": "Gets or sets the name of the track.",
             "nullable": true
           },
           "albumId": {
             "type": "integer",
+            "description": "Gets or sets the album ID associated with the track.",
             "format": "int32",
             "nullable": true
           },
           "mediaTypeId": {
             "type": "integer",
+            "description": "Gets or sets the media type ID for the track.",
             "format": "int32"
           },
           "genreId": {
             "type": "integer",
+            "description": "Gets or sets the genre ID for the track.",
             "format": "int32",
             "nullable": true
           },
           "composer": {
             "type": "string",
+            "description": "Gets or sets the composer of the track.",
             "nullable": true
           },
           "milliseconds": {
             "type": "integer",
+            "description": "Gets or sets the duration of the track in milliseconds.",
             "format": "int32"
           },
           "bytes": {
             "type": "integer",
+            "description": "Gets or sets the size of the track in bytes.",
             "format": "int32",
             "nullable": true
           },
           "unitPrice": {
             "type": "number",
+            "description": "Gets or sets the unit price of the track.",
             "format": "double"
           },
           "album": {
@@ -1274,6 +1361,7 @@
             "items": {
               "$ref": "#/components/schemas/InvoiceLine"
             },
+            "description": "Gets or sets the collection of invoice lines for the track.",
             "nullable": true
           },
           "mediaType": {
@@ -1284,10 +1372,12 @@
             "items": {
               "$ref": "#/components/schemas/Playlist"
             },
+            "description": "Gets or sets the collection of playlists that include the track.",
             "nullable": true
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "description": "Represents a track in the Chinook database."
       }
     }
   }

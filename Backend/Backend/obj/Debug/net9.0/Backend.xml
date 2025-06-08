@@ -92,6 +92,27 @@
             <param name="id">The id of employee to retrieve</param>
             <returns>An object of <see cref="T:Backend.Models.Employee"/>.</returns>
         </member>
+        <member name="M:Backend.Controllers.EmployeesController.GetCommentsOfEmployee(System.Int32)">
+            <summary>
+            Retrieves a list of comments associated with a specific employee by their ID.
+            </summary>
+            <param name="id"></param>
+            <returns>A list of <see cref="T:Backend.DTOs.CommentDto"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.PostComment(Backend.DTOs.CommentDto)">
+            <summary>
+            Creates a new comment for an employee.
+            </summary>
+            <param name="commentDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.DeleteComment(System.Int32)">
+            <summary>
+            Deletes a comment by its ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="T:Backend.Controllers.ForecastFilesController">
             <summary>
             Controller for managing forecast files related to country and genre spending predictions.
@@ -262,6 +283,21 @@
         <member name="P:Backend.DTOs.ArtistCloudDto.Sale">
             <summary>
             Represents the total sales amount for the artist.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.CommentDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for comments in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CommentDto.id">
+            <summary>
+            Gets or sets the unique identifier for the comment.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CommentDto.text">
+            <summary>
+            Gets or sets the content of the comment.
             </summary>
         </member>
         <member name="T:Backend.DTOs.CountryRevenueDto">
@@ -473,6 +509,81 @@
             Gets or sets the amount of total spendings for the country.
             </summary>
         </member>
+        <member name="T:Backend.ML_Models.ForecastInput">
+            <summary>
+            Represents the input data structure for forecasting models.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Name">
+            <summary>
+            The name of the item being forecasted (e.g., country or genre).
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Date">
+            <summary>
+            The date associated with the forecast input, formatted as yyyy-MM-dd.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Value">
+            <summary>
+            The value associated with the forecast input, typically representing sales or some other metric.
+            </summary>
+        </member>
+        <member name="T:Backend.ML_Models.ForecastOutput">
+            <summary>
+            Represents the output data structure for forecasting models.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastOutput.ForecastedValue">
+            <summary>
+            The forecasted values for the next time periods.
+            </summary>
+        </member>
+        <member name="T:Backend.ML_Models.TimeSeriesInput">
+            <summary>
+            Represents the input data structure for time series forecasting models.
+            </summary>
+        </member>
+        <member name="F:Backend.ML_Models.TimeSeriesInput.Date">
+            <summary>
+            The date of the observation in the time series.
+            </summary>
+        </member>
+        <member name="F:Backend.ML_Models.TimeSeriesInput.Value">
+            <summary>
+            The value associated with the observation, typically representing sales or some other metric.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Album">
+            <summary>
+            Represents an album in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.AlbumId">
+            <summary>
+            Gets or sets the unique identifier for the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Title">
+            <summary>
+            Gets or sets the title of the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.ArtistId">
+            <summary>
+            Gets or sets the unique identifier for the artist associated with the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Artist">
+            <summary>
+            Gets or sets the artist associated with the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Tracks">
+            <summary>
+            Gets or sets the collection of tracks associated with the album.
+            </summary>
+        </member>
         <member name="T:RevenueRangesController">
             <summary>
             Controller for managing revenue ranges in the Chinook database.
@@ -489,6 +600,41 @@
             Retrieves the minimum and maximum revenue ranges from the invoice lines.
             </summary>
             <returns> A list of <see cref="T:Backend.DTOs.RevenueRangesDto"/> objects.</returns>
+        </member>
+        <member name="T:ForecastModel">
+            <summary>
+            ForecastModel class provides methods to generate forecasts for top country and genre spending.
+            </summary>
+        </member>
+        <member name="M:ForecastModel.ForecastTopCountrySpending">
+            <summary>
+            Generates a forecast for the top country spending by month and saves it to a JSON file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ForecastModel.ForecastTopGenres">
+            <summary>
+            Generates a forecast for the top genres by month and saves it to a JSON file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ForecastModel.RunForecast(System.String,System.String,System.String)">
+            <summary>
+            Runs a time series forecasting model (SSA) on a dataset grouped by item (e.g., country or genre),
+            calculates the average values for the last 3 known months and the next 3 forecasted months,
+            and outputs the results as a JSON file.
+            </summary>
+            <param name="filePath">The full path to the input CSV file. The file must have columns: Name, Date (yyyy-MM-dd), and Value.</param>
+            <param name="itemLabel">The label type used for grouping data (e.g., "Country" or "Genre"). Determines JSON property names.</param>
+            <param name="outputFileName">The filename (including extension) for the generated JSON output. This parameter is deprecated but still used.</param>
+            <returns>Returns the full path to the generated JSON file containing forecast results.</returns>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown when the input file does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown if no forecasts could be generated due to insufficient data or processing errors.</exception>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Added for testing purposes but stays not functional for v1 version.
+            </summary>
         </member>
     </members>
 </doc>

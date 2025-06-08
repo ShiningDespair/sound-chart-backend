@@ -39,7 +39,7 @@ namespace Backend.Controllers
         /// <param name="mediaType">Filters the results according to media type.</param>
         /// <returns> A list of filtered <see cref="WorldMapDto"/> objects. </returns>
         [HttpGet("worldMap")]
-        public async Task<ActionResult<IEnumerable<object>>> GetTracksMap(
+        public async Task<ActionResult<IEnumerable<WorldMapDto>>> GetTracksMap(
             [FromQuery] string? genre,
             [FromQuery] int? minDuration,
             [FromQuery] int? maxDuration,
@@ -82,16 +82,23 @@ namespace Backend.Controllers
             }
 
             // Group by CountryId, but return the associated CountryIsoCode
-            var grouped = await query
-                .GroupBy(x => x.c.CountryId)  // Group by CountryId
-                .Select(g => new WorldMapDto
+            var grouped = (await query
+                .GroupBy(x => x.c.CountryId)
+                .ToListAsync()) // ← Materialize the query here
+                .Select(g =>
                 {
-                    CountryIsoCode = (int)g.FirstOrDefault().co.CountryIsoCode,  // Retrieve CountryIsoCode
-                    Country = g.FirstOrDefault().co.CountryName, 
-                    TotalSpent = g.Sum(x => x.il.UnitPrice * x.il.Quantity)
+                    var first = g.FirstOrDefault();
+
+                    return new WorldMapDto
+                    {
+                        CountryIsoCode = first?.co.CountryIsoCode ?? 0,
+                        Country = first?.co.CountryName ?? "Unknown",
+                        TotalSpent = g.Sum(x => x.il.UnitPrice * x.il.Quantity)
+                    };
                 })
                 .OrderByDescending(x => x.TotalSpent)
-                .ToListAsync();
+                .ToList();
+
 
             return Ok(grouped);
         }

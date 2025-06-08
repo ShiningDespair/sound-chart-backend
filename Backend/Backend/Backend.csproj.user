@@ -13,5 +13,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Backend.Models.ChinookContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>SoundchartBackend - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

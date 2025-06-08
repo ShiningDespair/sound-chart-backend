@@ -1,0 +1,1172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend</name>
+    </assembly>
+    <members>
+        <member name="T:Backend.Controllers.AlbumsController">
+            <summary>
+            Controller for managing albums in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initilizes a new instance of <see cref="T:Backend.Controllers.AlbumsController"/> class with specified database context.
+            </summary>
+            <param name="context">The database context used to access album data</param>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.GetAlbums">
+            <summary>
+            Retrieves a list of all albums.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Album"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.AlbumsController.GetAlbumsByArtistName(System.String)">
+            <summary>
+            Retrieves a list of albums accordingly to artist name given
+            </summary>
+            <param name="artistName"></param>
+            <returns>A list of <see cref="T:Backend.Models.Album"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.ArtistsController">
+            <summary>
+            Controller for managing artists in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.ArtistsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.GetArtists">
+            <summary>
+            Retrieves all artists
+            </summary>
+            <returns> A list of <see cref="T:Backend.Models.Artist"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.ArtistsController.GetArtistsCloud">
+            <summary>
+            Retrieves a list of artists with their total sales amount, grouped by artist name for D3.js word cloud.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Artist"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.DurationsController">
+            <summary>
+            Controller for managing track durations in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.DurationsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.DurationsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.DurationsController.GetDurationRange">
+            <summary>
+            Retrieves the minimum and maximum track durations in seconds from the database.
+            </summary>
+            <returns>Two item list of <see cref="T:Backend.DTOs.DurationDto"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.EmployeesController">
+            <summary>
+            Controller for managing employees in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.EmployeesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.GetEmployees">
+            <summary>
+            Retrieves a list of employees with their total sales amount, grouped by employee name for D3.js PieChart.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Employee"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.EmployeesController.GetEmployee(System.Int32)">
+            <summary>
+            Retrieves detailed information about a specific employee by their ID.
+            </summary>
+            <param name="id">The id of employee to retrieve</param>
+            <returns>An object of <see cref="T:Backend.Models.Employee"/>.</returns>
+        </member>
+        <member name="T:Backend.Controllers.ForecastFilesController">
+            <summary>
+            Controller for managing forecast files related to country and genre spending predictions.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ForecastFilesController.GetCountryForecast">
+            <summary>
+            Retrieves the forecast data for top country spending from a pre-generated CSV files.
+            </summary>
+            <returns>A prediction list of <see cref="T:Backend.DTOs.ForecastCountryDto"/> objects.</returns>
+        </member>
+        <member name="M:Backend.Controllers.ForecastFilesController.GetGenreForecast">
+            <summary>
+            Retrieves the forecast data for top genre spending from a pre-generated CSV files.
+            </summary>
+            <returns>A prediction list of <see cref="T:Backend.DTOs.ForecastGenreDto"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.GenresController">
+            <summary>
+            Controller for managing genres in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.GenresController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.GetGenres">
+            <summary>
+            Retrieves a list of all unique genres from the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Genre"/></returns>
+        </member>
+        <member name="M:Backend.Controllers.GenresController.GetGenresStacked">
+            <summary>
+            Retrieves a list of genres with their total sales amount, grouped by genre name for D3.js stacked bar chart.
+            </summary>
+            <returns>A list of <see cref="T:Backend.DTOs.StackedGenreDto"/> objects.</returns>
+        </member>
+        <member name="T:Backend.Controllers.MediaTypesController">
+            <summary>
+            Controller for managing media types in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.MediaTypesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.MediaTypesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.MediaTypesController.GetMediaTypes">
+            <summary>
+            Retrieves a list of all unique media types from the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.MediaType"/> objects. </returns>
+        </member>
+        <member name="T:Backend.Controllers.PlaylistsController">
+            <summary>
+            Controller for managing playlists in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.PlaylistsController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.PlaylistsController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.PlaylistsController.GetBubblePlaylist">
+            <summary>
+            Retrieves a list of all playlists from the database for D3.js Bubble Chart.
+            </summary>
+            <returns> A list of <see cref="T:Backend.DTOs.PlaylistBubbleDto"/></returns>
+        </member>
+        <member name="T:Backend.Controllers.TracksController">
+            <summary>
+            Controller for managing tracks in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Controllers.TracksController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTracksMap(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String)">
+            <summary>
+            Retrieves a list of tracks grouped by country for a world map visualization.
+            </summary>
+            <param name="genre"> Filters the results according to genre.</param>
+            <param name="minDuration">Filters the results according to minimum duration.</param>
+            <param name="maxDuration">Filters the results according to maximum duration.</param>
+            <param name="artist">Filters the results according to artist.</param>
+            <param name="album">Filters the results according to album.</param>
+            <param name="mediaType">Filters the results according to media type.</param>
+            <returns> A list of filtered <see cref="T:Backend.DTOs.WorldMapDto"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTracks">
+            <summary>
+            Retrieves a list of all tracks in the database.
+            </summary>
+            <returns>A list of <see cref="T:Backend.Models.Track"/> objects. </returns>
+        </member>
+        <member name="M:Backend.Controllers.TracksController.GetTrack(System.Int32)">
+            <summary>
+            Retrieves a specific track by its ID.
+            </summary>
+            <param name="id">The id of track to be retrieved.</param>
+            <returns>An object of <see cref="T:Backend.Models.Track"/>.</returns>
+        </member>
+        <member name="T:Backend.Controllers.ValuesController">
+            <summary>
+            Controller for managing values in the application.
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Get">
+            <summary>
+            Retrieves a list of string values.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Retrieves a specific value by its ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Creates a new value based on the provided string input.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Updates an existing value identified by its ID with the provided string input.
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Backend.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Deletes a value identified by its ID.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:Backend.Controllers.AlbumsByArtistsDto">
+            <summary>
+            Data Transfer Object (DTO) for albums grouped by artists.
+            </summary>
+        </member>
+        <member name="P:Backend.Controllers.AlbumsByArtistsDto.Album">
+            <summary>
+            Gets or sets the title of the album.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ArtistCloudDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for artist cloud visualization.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ArtistCloudDto.Name">
+            <summary>
+            Represents the name of the artist.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ArtistCloudDto.Sale">
+            <summary>
+            Represents the total sales amount for the artist.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.CountryRevenueDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for country revenue visualization.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CountryRevenueDto.Country">
+            <summary>
+            Gets or sets the name of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.CountryRevenueDto.TotalRevenue">
+            <summary>
+            Gets or sets the total revenue generated from the country.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.DurationDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for duration filtering in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.DurationDto.Min">
+            <summary>
+            Gets or sets the minimum duration in seconds.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.DurationDto.Max">
+            <summary>
+            Gets or sets the maximum duration in seconds.
+            </summary>
+        </member>
+        <member name="M:Backend.DTOs.DurationDto.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.DTOs.DurationDto"/> class with specified minimum and maximum durations.
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="T:Backend.DTOs.EmployeeDetailDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for employee details.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.FirstName">
+            <summary>
+            Gets or sets the first name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.LastName">
+            <summary>
+            Gets or sets the last name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Title">
+            <summary>
+            Gets or sets the title of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Country">
+            <summary>
+            Gets or sets the country of the employee's location.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.City">
+            <summary>
+            Gets or sets the city of the employee's location.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeDetailDto.Description">
+            <summary>
+            Gets or sets the short text that describes the employee's role or responsibilities.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.EmployeeSalesDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for employee sales data.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.EmployeeId">
+            <summary>
+            Gets or sets the unique identifier for the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.FullName">
+            <summary>
+            Gets or sets the full name of the employee, combining first and last names.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.EmployeeSalesDto.TotalSold">
+            <summary>
+            Gets or sets the total sales amount for the employee, representing the sum of all sales made by the employee.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ForecastCountryDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for country-specific forecast data.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.CountryName">
+            <summary>
+            Gets or sets the name of the country for which the forecast is made.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.Last3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of sales that happend in the given country in last 3 months (Average).
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastCountryDto.Forecast3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of forcasted sales that happend in the given country in next 3 months (Average).
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.ForecastGenreDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for genre forecasts.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.GenreName">
+            <summary>
+            Gets or sets the name of the genre.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.Last3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of sales that happened in the given genre in the last 3 months (Average).
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.ForecastGenreDto.Forecast3MonthsAverage">
+            <summary>
+            Gets or sets the total amount of forecasted sales that will happen in the given genre in the next 3 months (Average).
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.PlaylistBubbleDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for playlist bubbles in a D3.js Bubble Chart.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.PlaylistBubbleDto.Name">
+            <summary>
+            Gets or sets the name of the playlist.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.PlaylistBubbleDto.Sale">
+            <summary>
+            Represents the total sales amount for the playlist.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.RevenueRangesDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for revenue ranges.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.RevenueRangesDto.Min">
+            <summary>
+            Gets or sets the minimum revenue value.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.RevenueRangesDto.Max">
+            <summary>
+            Gets or sets the maximum revenue value.
+            </summary>
+        </member>
+        <member name="M:Backend.DTOs.RevenueRangesDto.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.DTOs.RevenueRangesDto"/> class with specified minimum and maximum revenue values.
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="T:Backend.DTOs.StackedGenreDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for genre sales data, used for D3.js stacked bar chart visualizations.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.Country">
+            <summary>
+            Represents the country where the sales occurred.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.Genre">
+            <summary>
+            Represents the genre of the music or product sold.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.StackedGenreDto.TotalSpent">
+            <summary>
+            Represents the total amount of sales in the specified genre for the given country.
+            </summary>
+        </member>
+        <member name="T:Backend.DTOs.WorldMapDto">
+            <summary>
+            Represents a Data Transfer Object (DTO) for world map visualization of total sales by country on D3.js World Map Chart.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.CountryIsoCode">
+            <summary>
+            Gets or sets the ISO code of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.Country">
+            <summary>
+            Gets or sets the name of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.DTOs.WorldMapDto.TotalSpent">
+            <summary>
+            Gets or sets the amount of total spendings for the country.
+            </summary>
+        </member>
+        <member name="T:Backend.ML_Models.ForecastInput">
+            <summary>
+            Represents the input data structure for forecasting models.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Name">
+            <summary>
+            The name of the item being forecasted (e.g., country or genre).
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Date">
+            <summary>
+            The date associated with the forecast input, formatted as yyyy-MM-dd.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastInput.Value">
+            <summary>
+            The value associated with the forecast input, typically representing sales or some other metric.
+            </summary>
+        </member>
+        <member name="T:Backend.ML_Models.ForecastOutput">
+            <summary>
+            Represents the output data structure for forecasting models.
+            </summary>
+        </member>
+        <member name="P:Backend.ML_Models.ForecastOutput.ForecastedValue">
+            <summary>
+            The forecasted values for the next time periods.
+            </summary>
+        </member>
+        <member name="T:Backend.ML_Models.TimeSeriesInput">
+            <summary>
+            Represents the input data structure for time series forecasting models.
+            </summary>
+        </member>
+        <member name="F:Backend.ML_Models.TimeSeriesInput.Date">
+            <summary>
+            The date of the observation in the time series.
+            </summary>
+        </member>
+        <member name="F:Backend.ML_Models.TimeSeriesInput.Value">
+            <summary>
+            The value associated with the observation, typically representing sales or some other metric.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Album">
+            <summary>
+            Represents an album in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.AlbumId">
+            <summary>
+            Gets or sets the unique identifier for the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Title">
+            <summary>
+            Gets or sets the title of the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.ArtistId">
+            <summary>
+            Gets or sets the unique identifier for the artist associated with the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Artist">
+            <summary>
+            Gets or sets the artist associated with the album.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Album.Tracks">
+            <summary>
+            Gets or sets the collection of tracks associated with the album.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Artist">
+            <summary>
+            Represents an artist in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Artist.ArtistId">
+            <summary>
+            Gets or sets the unique identifier for the artist.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Artist.Name">
+            <summary>
+            Gets or sets the name of the artist.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Artist.Albums">
+            <summary>
+            Gets or sets the collection of albums associated with the artist.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.ChinookContext">
+            <summary>
+            Represents the Chinook database context for managing entities related to the Chinook music store.
+            </summary>
+        </member>
+        <member name="M:Backend.Models.ChinookContext.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Models.ChinookContext"/> class using default settings.
+            </summary>
+        </member>
+        <member name="M:Backend.Models.ChinookContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Backend.Models.ChinookContext})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Backend.Models.ChinookContext"/> class with the specified database options.
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Albums">
+            <summary>
+            Gets or sets the DbSet for the Album entity, representing the albums in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Artists">
+            <summary>
+            Gets or sets the DbSet for the Artist entity, representing the artists in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Countries">
+            <summary>
+            Gets or sets the DbSet for the Country entity, representing the countries in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Customers">
+            <summary>
+            Gets or sets the DbSet for the Customer entity, representing the customers in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Employees">
+            <summary>
+            Gets or sets the DbSet for the Employee entity, representing the employees in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Genres">
+            <summary>
+            Gets or sets the DbSet for the Genre entity, representing the music genres in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Invoices">
+            <summary>
+            Gets or sets the DbSet for the Invoice entity, representing the invoices in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.InvoiceLines">
+            <summary>
+            Gets or sets the DbSet for the InvoiceLine entity, representing the line items in invoices in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.MediaTypes">
+            <summary>
+            Gets or sets the DbSet for the MediaType entity, representing the media types in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Playlists">
+            <summary>
+            Gets or sets the DbSet for the Playlist entity, representing the playlists in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ChinookContext.Tracks">
+            <summary>
+            Gets or sets the DbSet for the Track entity, representing the tracks in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:Backend.Models.ChinookContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Configures the database context options, such as the connection string and database provider.
+            </summary>
+            <param name="optionsBuilder"></param>
+        </member>
+        <member name="M:Backend.Models.ChinookContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Configures the model for the Chinook database context, including entity relationships, constraints, and indexes.
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:Backend.Models.Country">
+            <summary>
+            Represents a country in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Country.CountryId">
+            <summary>
+            Gets or sets the unique identifier for the country.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Country.CountryName">
+            <summary>
+            Gets or sets the name of the country.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Country.CountryIsoCode">
+            <summary>
+            Gets or sets the ISO code for the country.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Country.CountryCode">
+            <summary>
+            Gets or sets the country code for the country.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Country.Customers">
+            <summary>
+            Gets or sets the collection of customers associated with the country.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Customer">
+            <summary>
+            Represents a customer in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.CustomerId">
+            <summary>
+            Gets or sets the unique identifier for the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.FirstName">
+            <summary>
+            Gets or sets the first name of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.LastName">
+            <summary>
+            Gets or sets the last name of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Company">
+            <summary>
+            Gets or sets the company name associated with the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Address">
+            <summary>
+            Gets or sets the address of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.City">
+            <summary>
+            Gets or sets the city of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.State">
+            <summary>
+            Gets or sets the state of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.PostalCode">
+            <summary>
+            Gets or sets the postal code of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Phone">
+            <summary>
+            Gets or sets the phone number of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Fax">
+            <summary>
+            Gets or sets the fax number of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Email">
+            <summary>
+            Gets or sets the email address of the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.SupportRepId">
+            <summary>
+            Gets or sets the support representative's employee ID.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.CountryId">
+            <summary>
+            Gets or sets the country ID associated with the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Country">
+            <summary>
+            Gets or sets the country associated with the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.Invoices">
+            <summary>
+            Gets or sets the collection of invoices for the customer.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Customer.SupportRep">
+            <summary>
+            Gets or sets the support representative associated with the customer.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Employee">
+            <summary>
+            Represents an employee in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.EmployeeId">
+            <summary>
+            Gets or sets the unique identifier for the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.LastName">
+            <summary>
+            Gets or sets the last name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.FirstName">
+            <summary>
+            Gets or sets the first name of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Title">
+            <summary>
+            Gets or sets the job title of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.ReportsTo">
+            <summary>
+            Gets or sets the employee ID to whom this employee reports.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.BirthDate">
+            <summary>
+            Gets or sets the birth date of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.HireDate">
+            <summary>
+            Gets or sets the hire date of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Address">
+            <summary>
+            Gets or sets the address of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.City">
+            <summary>
+            Gets or sets the city of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.State">
+            <summary>
+            Gets or sets the state of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Country">
+            <summary>
+            Gets or sets the country of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.PostalCode">
+            <summary>
+            Gets or sets the postal code of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Phone">
+            <summary>
+            Gets or sets the phone number of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Fax">
+            <summary>
+            Gets or sets the fax number of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Email">
+            <summary>
+            Gets or sets the email address of the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Description">
+            <summary>
+            Gets or sets the description or notes for the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.Customers">
+            <summary>
+            Gets or sets the collection of customers associated with the employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.InverseReportsToNavigation">
+            <summary>
+            Gets or sets the collection of employees who report to this employee.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Employee.ReportsToNavigation">
+            <summary>
+            Gets or sets the employee to whom this employee reports.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.ErrorViewModel">
+            <summary>
+            Represents the error view model used in the application.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ErrorViewModel.RequestId">
+            <summary>
+            Gets or sets the unique identifier for the request that caused the error.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.ErrorViewModel.ShowRequestId">
+            <summary>
+            Gets a value indicating whether the request ID should be shown in the error view.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Genre">
+            <summary>
+            Represents a genre in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Genre.GenreId">
+            <summary>
+            Gets or sets the unique identifier for the genre.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Genre.Name">
+            <summary>
+            Gets or sets the name of the genre.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Genre.Tracks">
+            <summary>
+            Gets or sets the collection of tracks associated with the genre.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Invoice">
+            <summary>
+            Represents an invoice in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.InvoiceId">
+            <summary>
+            Gets or sets the unique identifier for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.CustomerId">
+            <summary>
+            Gets or sets the customer ID associated with the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.InvoiceDate">
+            <summary>
+            Gets or sets the date the invoice was created.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.BillingAddress">
+            <summary>
+            Gets or sets the billing address for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.BillingCity">
+            <summary>
+            Gets or sets the billing city for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.BillingState">
+            <summary>
+            Gets or sets the billing state for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.BillingCountry">
+            <summary>
+            Gets or sets the billing country for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.BillingPostalCode">
+            <summary>
+            Gets or sets the billing postal code for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.Total">
+            <summary>
+            Gets or sets the total amount for the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.Customer">
+            <summary>
+            Gets or sets the customer associated with the invoice.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Invoice.InvoiceLines">
+            <summary>
+            Gets or sets the collection of invoice lines for the invoice.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.InvoiceLine">
+            <summary>
+            Represents a line item in an invoice, linking a track to an invoice with quantity and price.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.InvoiceLineId">
+            <summary>
+            Gets or sets the unique identifier for the invoice line.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.InvoiceId">
+            <summary>
+            Gets or sets the invoice ID to which this line belongs.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.TrackId">
+            <summary>
+            Gets or sets the track ID for the item being invoiced.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.UnitPrice">
+            <summary>
+            Gets or sets the unit price for the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.Quantity">
+            <summary>
+            Gets or sets the quantity of the track being invoiced.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.Invoice">
+            <summary>
+            Gets or sets the invoice associated with this line.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.InvoiceLine.Track">
+            <summary>
+            Gets or sets the track associated with this line.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.MediaType">
+            <summary>
+            Represents a media type in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.MediaType.MediaTypeId">
+            <summary>
+            Gets or sets the unique identifier for the media type.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.MediaType.Name">
+            <summary>
+            Gets or sets the name of the media type.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.MediaType.Tracks">
+            <summary>
+            Gets or sets the collection of tracks associated with this media type.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Playlist">
+            <summary>
+            Represents a playlist in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Playlist.PlaylistId">
+            <summary>
+            Gets or sets the unique identifier for the playlist.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Playlist.Name">
+            <summary>
+            Gets or sets the name of the playlist.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Playlist.Tracks">
+            <summary>
+            Gets or sets the collection of tracks associated with the playlist.
+            </summary>
+        </member>
+        <member name="T:Backend.Models.Track">
+            <summary>
+            Represents a track in the Chinook database.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.TrackId">
+            <summary>
+            Gets or sets the unique identifier for the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Name">
+            <summary>
+            Gets or sets the name of the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.AlbumId">
+            <summary>
+            Gets or sets the album ID associated with the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.MediaTypeId">
+            <summary>
+            Gets or sets the media type ID for the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.GenreId">
+            <summary>
+            Gets or sets the genre ID for the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Composer">
+            <summary>
+            Gets or sets the composer of the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Milliseconds">
+            <summary>
+            Gets or sets the duration of the track in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Bytes">
+            <summary>
+            Gets or sets the size of the track in bytes.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.UnitPrice">
+            <summary>
+            Gets or sets the unit price of the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Album">
+            <summary>
+            Gets or sets the album associated with the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Genre">
+            <summary>
+            Gets or sets the genre associated with the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.InvoiceLines">
+            <summary>
+            Gets or sets the collection of invoice lines for the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.MediaType">
+            <summary>
+            Gets or sets the media type associated with the track.
+            </summary>
+        </member>
+        <member name="P:Backend.Models.Track.Playlists">
+            <summary>
+            Gets or sets the collection of playlists that include the track.
+            </summary>
+        </member>
+        <member name="T:RevenueRangesController">
+            <summary>
+            Controller for managing revenue ranges in the Chinook database.
+            </summary>
+        </member>
+        <member name="M:RevenueRangesController.#ctor(Backend.Models.ChinookContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RevenueRangesController"/> class with the specified database context.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:RevenueRangesController.GetRevenueRanges">
+            <summary>
+            Retrieves the minimum and maximum revenue ranges from the invoice lines.
+            </summary>
+            <returns> A list of <see cref="T:Backend.DTOs.RevenueRangesDto"/> objects.</returns>
+        </member>
+        <member name="T:ForecastModel">
+            <summary>
+            ForecastModel class provides methods to generate forecasts for top country and genre spending.
+            </summary>
+        </member>
+        <member name="M:ForecastModel.ForecastTopCountrySpending">
+            <summary>
+            Generates a forecast for the top country spending by month and saves it to a JSON file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ForecastModel.ForecastTopGenres">
+            <summary>
+            Generates a forecast for the top genres by month and saves it to a JSON file.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ForecastModel.RunForecast(System.String,System.String,System.String)">
+            <summary>
+            Runs a time series forecasting model (SSA) on a dataset grouped by item (e.g., country or genre),
+            calculates the average values for the last 3 known months and the next 3 forecasted months,
+            and outputs the results as a JSON file.
+            </summary>
+            <param name="filePath">The full path to the input CSV file. The file must have columns: Name, Date (yyyy-MM-dd), and Value.</param>
+            <param name="itemLabel">The label type used for grouping data (e.g., "Country" or "Genre"). Determines JSON property names.</param>
+            <param name="outputFileName">The filename (including extension) for the generated JSON output. This parameter is deprecated but still used.</param>
+            <returns>Returns the full path to the generated JSON file containing forecast results.</returns>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown when the input file does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown if no forecasts could be generated due to insufficient data or processing errors.</exception>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Added for testing purposes but stays not functional for v1 version.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -36,11 +36,6 @@ namespace Backend.Controllers
             return await _context.Albums.ToListAsync();
         }
 
-        private bool AlbumExists(int id)
-        {
-            return _context.Albums.Any(e => e.AlbumId == id);
-        }
-    
         /// <summary>
         /// Retrieves a list of albums accordingly to artist name given
         /// </summary>

@@ -38,6 +38,7 @@ namespace Backend.Controllers
         {
             return await _context.Artists.Distinct().ToListAsync();
         }
+
         /// <summary>
         /// Retrieves a list of artists with their total sales amount, grouped by artist name for D3.js word cloud.
         /// </summary>

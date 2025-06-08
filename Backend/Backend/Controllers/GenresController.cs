@@ -45,33 +45,27 @@ namespace Backend.Controllers
         /// </summary>
         /// <returns>A list of <see cref="StackedGenreDto"/> objects.</returns>
         [HttpGet("stacked")]
-        public async Task<ActionResult<IEnumerable<object>>> GetGenresStacked()
+        public async Task<ActionResult<IEnumerable<StackedGenreDto>>> GetGenresStacked()
         {
-            var result = await _context.InvoiceLines
-                .Where(il =>
-                    il.Invoice != null &&
-                    il.Invoice.Customer != null &&
-                    il.Invoice.Customer.Country != null &&
-                    il.Track != null &&
-                    il.Track.Genre != null
-                )
-                .Select(il => new
+            var result = await (
+                from il in _context.InvoiceLines
+                join inv in _context.Invoices on il.InvoiceId equals inv.InvoiceId
+                join cust in _context.Customers on inv.CustomerId equals cust.CustomerId
+                join country in _context.Countries on cust.CountryId equals country.CountryId
+                join track in _context.Tracks on il.TrackId equals track.TrackId
+                join genre in _context.Genres on track.GenreId equals genre.GenreId
+                group new { il, country, genre } by new { country.CountryName, genre.Name } into g
+                select new StackedGenreDto
                 {
-                    Country = il.Invoice.Customer.Country!.CountryName,
-                    Genre = il.Track.Genre!.Name,
-                    TotalSpent = il.UnitPrice * il.Quantity
-                })
-                .GroupBy(x => new { x.Country, x.Genre })
-                .Select(g => new StackedGenreDto
-                {
-                    Country = g.Key.Country!,
-                    Genre = g.Key.Genre!,
-                    TotalSpent = g.Sum(x => x.TotalSpent)
-                })
-                .ToListAsync();
+                    Country = g.Key.CountryName,
+                    Genre = g.Key.Name,
+                    TotalSpent = g.Sum(x => x.il.UnitPrice * x.il.Quantity)
+                }
+            ).ToListAsync();
 
             return Ok(result);
         }
+
 
     }
 }
